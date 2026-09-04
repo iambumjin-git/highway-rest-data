@@ -55,6 +55,55 @@ def run_query(collection, since):
     return out
 
 
+HIST = 'history'
+
+
+def _monthly(menu):
+    """오늘 값을 하루 한 번 보관하고, 30일 전 값과의 차이를 돌려준다."""
+    os.makedirs(HIST, exist_ok=True)
+    today = datetime.now(timezone.utc).date()
+
+    # 오늘 치가 없으면 남긴다 (하루 1개)
+    todays = f'{HIST}/{today.isoformat()}.json'
+    if not os.path.exists(todays):
+        json.dump({k: v.get('like', 0) for k, v in menu.items()},
+                  open(todays, 'w'), sort_keys=True)
+
+    # 30일 넘은 파일은 지운다
+    files = sorted(f for f in os.listdir(HIST) if f.endswith('.json'))
+    for f in files:
+        try:
+            d = datetime.fromisoformat(f[:-5]).date()
+        except ValueError:
+            continue
+        if (today - d).days > 40:
+            os.remove(f'{HIST}/{f}')
+
+    # 30일 전(없으면 가장 오래된) 파일을 기준으로 삼는다
+    files = sorted(f for f in os.listdir(HIST) if f.endswith('.json'))
+    target = (today - timedelta(days=30)).isoformat() + '.json'
+    base_name = None
+    for f in files:
+        if f <= target:
+            base_name = f
+    if base_name is None and files:
+        base_name = files[0]
+    if base_name is None:
+        return {}
+
+    try:
+        base = json.load(open(f'{HIST}/{base_name}'))
+    except Exception:
+        return {}
+
+    out = {}
+    for k, v in menu.items():
+        gain = v.get('like', 0) - base.get(k, 0)
+        if gain > 0:
+            out[k] = {'like': gain}
+    return out
+
+
 def main():
     if not KEY:
         print('FIREBASE_API_KEY 가 없습니다', file=sys.stderr)
@@ -98,11 +147,17 @@ def main():
     rest = {k: v for k, v in clean(rest).items() if v}
     menu = {k: v for k, v in clean(menu).items() if v}
 
+    # ── 최근 한 달 인기 ────────────────────────────────
+    # Firestore는 누적값만 갖고 있어 '요즘 인기'를 알 수 없다.
+    # 그래서 하루에 한 번 스냅샷을 남겨두고, 30일 전 값과의 차이를 낸다.
+    month = _monthly(menu)
+
     data = {
         'at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'mode': 'full' if full else 'incremental',
         'rest': rest,
         'menuTop': menu,
+        'menuMonth': month,
     }
     json.dump(data, open(OUT, 'w'), ensure_ascii=False, indent=1, sort_keys=True)
     print(f"{'전체' if full else '변경분'} 수집 — "
