@@ -2,17 +2,16 @@
  "source": "data.ex.co.kr",
  "routes": [
   "경부선",
+  "고창담양선",
   "광주대구선",
   "남해2지선",
   "남해선",
   "남해선(순천-부산)",
   "남해선(영암-순천)",
+  "남해제1지선",
   "남해제2지선",
-  "노선 0160",
-  "노선 1020",
-  "노선 2530",
-  "노선 3000",
   "논산천안선",
+  "대전남부순환선",
   "동해선",
   "동해선(삼척-속초)",
   "무안광주선",
@@ -30,6 +29,7 @@
   "순천완주선",
   "영동선",
   "완주장수선",
+  "울산선",
   "인천국제공항선",
   "중부내륙선",
   "중부내륙지선",
@@ -14548,6 +14548,72 @@
    "prevKm": 15.1
   },
   {
+   "id": "000567",
+   "name": "장성물류졸음쉼터(담양)",
+   "route": "고창담양선",
+   "unitCode": "",
+   "routeNo": "2530",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 35.33415,
+   "lng": 126.81244,
+   "addr": "전남 장성군 장성읍 안평리 산26-3",
+   "tel": "00000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 0,
+   "total": 1
+  },
+  {
+   "id": "000568",
+   "name": "장성물류졸음쉼터(고창)",
+   "route": "고창담양선",
+   "unitCode": "",
+   "routeNo": "2530",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "하행",
+   "lat": 35.33415,
+   "lng": 126.81244,
+   "addr": "전남 장성군 장성읍 안평리 산26-3",
+   "tel": "00000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 0,
+   "total": 1
+  },
+  {
    "id": "000418",
    "name": "강천산(대구)휴게소",
    "route": "광주대구선",
@@ -23757,6 +23823,39 @@
    "prevKm": 54.1
   },
   {
+   "id": "000544",
+   "name": "창원(부산)졸음쉼터",
+   "route": "남해제1지선",
+   "unitCode": "",
+   "routeNo": "1020",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 35.2537,
+   "lng": 128.6401,
+   "addr": "경상남도 창원시 의창구 동정동 495",
+   "tel": "00000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 0,
+   "total": 1
+  },
+  {
    "id": "000592",
    "name": "서부산(순천)휴게소",
    "route": "남해제2지선",
@@ -24033,171 +24132,6 @@
      "prem": false
     }
    ],
-   "seq": 0,
-   "total": 1
-  },
-  {
-   "id": "000538",
-   "name": "울산행복드림쉼터",
-   "route": "노선 0160",
-   "unitCode": "",
-   "routeNo": "0160",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 35.522236,
-   "lng": 129.242369,
-   "addr": "울산광역시 울주군 언양읍 언양로 429",
-   "tel": "0522542821",
-   "parking": {
-    "car": 25,
-    "truck": 10,
-    "disabled": 2
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 0,
-   "total": 1
-  },
-  {
-   "id": "000544",
-   "name": "창원(부산)졸음쉼터",
-   "route": "노선 1020",
-   "unitCode": "",
-   "routeNo": "1020",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 35.2537,
-   "lng": 128.6401,
-   "addr": "경상남도 창원시 의창구 동정동 495",
-   "tel": "00000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 0,
-   "total": 1
-  },
-  {
-   "id": "000567",
-   "name": "장성물류졸음쉼터(담양)",
-   "route": "노선 2530",
-   "unitCode": "",
-   "routeNo": "2530",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 35.33415,
-   "lng": 126.81244,
-   "addr": "전남 장성군 장성읍 안평리 산26-3",
-   "tel": "00000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 0,
-   "total": 1
-  },
-  {
-   "id": "000568",
-   "name": "장성물류졸음쉼터(고창)",
-   "route": "노선 2530",
-   "unitCode": "",
-   "routeNo": "2530",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "하행",
-   "lat": 35.33415,
-   "lng": 126.81244,
-   "addr": "전남 장성군 장성읍 안평리 산26-3",
-   "tel": "00000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 0,
-   "total": 1
-  },
-  {
-   "id": "000569",
-   "name": "산내졸음쉼터",
-   "route": "노선 3000",
-   "unitCode": "",
-   "routeNo": "3000",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 36.312005,
-   "lng": 127.455428,
-   "addr": "대전광역시 동구 이사동 산16",
-   "tel": "0420000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
    "seq": 0,
    "total": 1
   },
@@ -25788,6 +25722,39 @@
    "prevId": "000460",
    "prevName": "정안알밤(논산)휴게소",
    "prevKm": 31.5
+  },
+  {
+   "id": "000569",
+   "name": "산내졸음쉼터",
+   "route": "대전남부순환선",
+   "unitCode": "",
+   "routeNo": "3000",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 36.312005,
+   "lng": 127.455428,
+   "addr": "대전광역시 동구 이사동 산16",
+   "tel": "0420000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 0,
+   "total": 1
   },
   {
    "id": "000482",
@@ -58712,6 +58679,39 @@
    "prevKm": 29.1
   },
   {
+   "id": "000538",
+   "name": "울산행복드림쉼터",
+   "route": "울산선",
+   "unitCode": "",
+   "routeNo": "0160",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 35.522236,
+   "lng": 129.242369,
+   "addr": "울산광역시 울주군 언양읍 언양로 429",
+   "tel": "0522542821",
+   "parking": {
+    "car": 25,
+    "truck": 10,
+    "disabled": 2
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 0,
+   "total": 1
+  },
+  {
    "id": "000483",
    "name": "영종대교휴게소",
    "route": "인천국제공항선",
@@ -88721,6 +88721,6 @@
    "total": 1
   }
  ],
- "version": "a2eb77988890",
- "builtAt": "2026-09-04 20:18"
+ "version": "334b8298ea6a",
+ "builtAt": "2026-09-04 20:29"
 }
