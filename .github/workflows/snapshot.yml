@@ -1,0 +1,39 @@
+name: 투표 집계 스냅샷
+
+# 앱이 Firestore를 직접 읽으면 사용자 수만큼 읽기가 늘어난다.
+# 여기서 10분에 한 번만 모아 votes.json으로 올리고, 앱은 그 파일을 받는다.
+# 바뀐 문서만 읽으므로 휴게소가 늘어도 실행당 읽기는 적게 유지된다.
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:        # 손으로 즉시 실행할 때
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 스냅샷 만들기
+        env:
+          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          SNAPSHOT_PATH: votes.json
+        run: python3 tools/make_snapshot.py
+
+      - name: 바뀐 게 있으면 올리기
+        run: |
+          if [ -z "$(git status --porcelain votes.json)" ]; then
+            echo "변경 없음"; exit 0
+          fi
+          git config user.name  "snapshot-bot"
+          git config user.email "actions@github.com"
+          git add votes.json
+          git commit -m "투표 집계 갱신 $(date -u '+%Y-%m-%d %H:%M')"
+          git push
