@@ -58,16 +58,24 @@ def run_query(collection, since):
 HIST = 'history'
 
 
-def _monthly(menu):
-    """오늘 값을 하루 한 번 보관하고, 30일 전 값과의 차이를 돌려준다."""
+def _monthly(rest):
+    """오늘 값을 하루 한 번 보관하고, 30일 전 값과의 차이를 돌려준다.
+
+    메뉴 순위는 휴게소 문서 안의 m<seq>_like 를 훑어 만든다.
+    (예전에는 menuTop 컬렉션을 따로 뒀지만, 집계를 파일로 받으면서 불필요해졌다.)
+    """
     os.makedirs(HIST, exist_ok=True)
     today = datetime.now(timezone.utc).date()
 
     # 오늘 치가 없으면 남긴다 (하루 1개)
     todays = f'{HIST}/{today.isoformat()}.json'
     if not os.path.exists(todays):
-        json.dump({k: v.get('like', 0) for k, v in menu.items()},
-                  open(todays, 'w'), sort_keys=True)
+        flat = {}
+        for rid, fields in rest.items():
+            for k, v in fields.items():
+                if k.startswith('m') and k.endswith('_like'):
+                    flat[f'{rid}|{k}'] = v
+        json.dump(flat, open(todays, 'w'), sort_keys=True)
 
     # 30일 넘은 파일은 지운다
     files = sorted(f for f in os.listdir(HIST) if f.endswith('.json'))
@@ -96,11 +104,15 @@ def _monthly(menu):
     except Exception:
         return {}
 
+    # 결과는 rest 와 같은 모양으로 돌려준다 (앱이 동일한 코드로 처리한다)
     out = {}
-    for k, v in menu.items():
-        gain = v.get('like', 0) - base.get(k, 0)
-        if gain > 0:
-            out[k] = {'like': gain}
+    for rid, fields in rest.items():
+        for k, v in fields.items():
+            if not (k.startswith('m') and k.endswith('_like')):
+                continue
+            gain = v - base.get(f'{rid}|{k}', 0)
+            if gain > 0:
+                out.setdefault(rid, {})[k] = gain
     return out
 
 
@@ -129,14 +141,12 @@ def main():
             full = True
 
     rest = dict(prev.get('rest') or {})
-    menu = dict(prev.get('menuTop') or {})
 
     new_rest = run_query('rest', None if full else since)
-    new_menu = run_query('menuTop', None if full else since)
+
     if full:
-        rest, menu = {}, {}
+        rest = {}
     rest.update(new_rest)
-    menu.update(new_menu)
 
     # 화면에 쓰지 않는 값은 빼서 파일을 가볍게 유지한다
     def clean(d):
@@ -145,24 +155,21 @@ def main():
                 for k, v in d.items()}
 
     rest = {k: v for k, v in clean(rest).items() if v}
-    menu = {k: v for k, v in clean(menu).items() if v}
 
     # ── 최근 한 달 인기 ────────────────────────────────
     # Firestore는 누적값만 갖고 있어 '요즘 인기'를 알 수 없다.
     # 그래서 하루에 한 번 스냅샷을 남겨두고, 30일 전 값과의 차이를 낸다.
-    month = _monthly(menu)
+    month = _monthly(rest)
 
     data = {
         'at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'mode': 'full' if full else 'incremental',
         'rest': rest,
-        'menuTop': menu,
         'menuMonth': month,
     }
     json.dump(data, open(OUT, 'w'), ensure_ascii=False, indent=1, sort_keys=True)
     print(f"{'전체' if full else '변경분'} 수집 — "
-          f"읽은 문서 {len(new_rest) + len(new_menu)}개 / "
-          f"누적 휴게소 {len(rest)}곳, 메뉴 {len(menu)}건")
+          f"읽은 문서 {len(new_rest)}개 / 누적 휴게소 {len(rest)}곳")
 
 
 if __name__ == '__main__':
