@@ -14338,10 +14338,48 @@
     }
    ],
    "seq": 0,
-   "total": 4,
+   "total": 6,
+   "nextId": "000305",
+   "nextName": "남원(대구)휴게소",
+   "nextKm": 16.1
+  },
+  {
+   "id": "000305",
+   "name": "남원(대구)휴게소",
+   "route": "광주대구선",
+   "unitCode": "",
+   "routeNo": "0122",
+   "geocoded": true,
+   "dir": "상행",
+   "lat": 35.38608,
+   "lng": 127.31481,
+   "addr": "전북 남원시 주생면 내동리 산30-4",
+   "tel": "0636364034",
+   "parking": {
+    "car": 38,
+    "truck": 15,
+    "disabled": 2
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 1,
+   "total": 6,
    "nextId": "000087",
    "nextName": "지리산(대구)휴게소",
-   "nextKm": 44.1
+   "nextKm": 28.7,
+   "prevId": "000418",
+   "prevName": "강천산(대구)휴게소",
+   "prevKm": 16.1
   },
   {
    "id": "000087",
@@ -14581,14 +14619,52 @@
      "prem": false
     }
    ],
-   "seq": 1,
-   "total": 4,
+   "seq": 2,
+   "total": 6,
+   "nextId": "000445",
+   "nextName": "산삼골(대구)휴게소",
+   "nextKm": 20.5,
+   "prevId": "000305",
+   "prevName": "남원(대구)휴게소",
+   "prevKm": 28.7
+  },
+  {
+   "id": "000445",
+   "name": "산삼골(대구)휴게소",
+   "route": "광주대구선",
+   "unitCode": "",
+   "routeNo": "0122",
+   "geocoded": true,
+   "dir": "상행",
+   "lat": 35.56129,
+   "lng": 127.81201,
+   "addr": "경남 함양군 수동면 산업단지길 209",
+   "tel": "0559638411",
+   "parking": {
+    "car": 30,
+    "truck": 20,
+    "disabled": 2
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 3,
+   "total": 6,
    "nextId": "000083",
    "nextName": "거창(대구)휴게소",
-   "nextKm": 44.4,
-   "prevId": "000418",
-   "prevName": "강천산(대구)휴게소",
-   "prevKm": 44.1
+   "nextKm": 24.7,
+   "prevId": "000087",
+   "prevName": "지리산(대구)휴게소",
+   "prevKm": 20.5
   },
   {
    "id": "000083",
@@ -14822,14 +14898,14 @@
      "prem": false
     }
    ],
-   "seq": 2,
-   "total": 4,
+   "seq": 4,
+   "total": 6,
    "nextId": "000446",
    "nextName": "논공(대구)휴게소",
    "nextKm": 37.7,
-   "prevId": "000087",
-   "prevName": "지리산(대구)휴게소",
-   "prevKm": 44.4
+   "prevId": "000445",
+   "prevName": "산삼골(대구)휴게소",
+   "prevKm": 24.7
   },
   {
    "id": "000446",
@@ -15124,8 +15200,8 @@
      "prem": false
     }
    ],
-   "seq": 3,
-   "total": 4,
+   "seq": 5,
+   "total": 6,
    "prevId": "000083",
    "prevName": "거창(대구)휴게소",
    "prevKm": 37.7
@@ -15371,7 +15447,7 @@
     }
    ],
    "seq": 0,
-   "total": 4,
+   "total": 6,
    "nextId": "000084",
    "nextName": "거창(광주)휴게소",
    "nextKm": 37.7
@@ -15609,13 +15685,51 @@
     }
    ],
    "seq": 1,
-   "total": 4,
-   "nextId": "000088",
-   "nextName": "지리산(광주)휴게소",
-   "nextKm": 44.4,
+   "total": 6,
+   "nextId": "000444",
+   "nextName": "산삼골(광주)휴게소",
+   "nextKm": 24.7,
    "prevId": "000447",
    "prevName": "논공(광주)휴게소",
    "prevKm": 37.7
+  },
+  {
+   "id": "000444",
+   "name": "산삼골(광주)휴게소",
+   "route": "광주대구선",
+   "unitCode": "",
+   "routeNo": "0122",
+   "geocoded": true,
+   "dir": "하행",
+   "lat": 35.56129,
+   "lng": 127.81201,
+   "addr": "경남 함양군 수동면 우명하교로 174",
+   "tel": "0559638411",
+   "parking": {
+    "car": 37,
+    "truck": 20,
+    "disabled": 2
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 2,
+   "total": 6,
+   "nextId": "000088",
+   "nextName": "지리산(광주)휴게소",
+   "nextKm": 20.5,
+   "prevId": "000084",
+   "prevName": "거창(광주)휴게소",
+   "prevKm": 24.7
   },
   {
    "id": "000088",
@@ -15855,14 +15969,52 @@
      "prem": true
     }
    ],
-   "seq": 2,
-   "total": 4,
+   "seq": 3,
+   "total": 6,
+   "nextId": "000439",
+   "nextName": "남원(광주)휴게소",
+   "nextKm": 24.5,
+   "prevId": "000444",
+   "prevName": "산삼골(광주)휴게소",
+   "prevKm": 20.5
+  },
+  {
+   "id": "000439",
+   "name": "남원(광주)휴게소",
+   "route": "광주대구선",
+   "unitCode": "",
+   "routeNo": "0122",
+   "geocoded": true,
+   "dir": "하행",
+   "lat": 35.413639,
+   "lng": 127.349615,
+   "addr": "전북 남원시 화정동 88올림픽고속도로 47",
+   "tel": "0636354034",
+   "parking": {
+    "car": 38,
+    "truck": 15,
+    "disabled": 2
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 4,
+   "total": 6,
    "nextId": "000436",
    "nextName": "강천산(광주)휴게소",
-   "nextKm": 44.1,
-   "prevId": "000084",
-   "prevName": "거창(광주)휴게소",
-   "prevKm": 44.4
+   "nextKm": 19.8,
+   "prevId": "000088",
+   "prevName": "지리산(광주)휴게소",
+   "prevKm": 24.5
   },
   {
    "id": "000436",
@@ -16091,11 +16243,11 @@
      "prem": true
     }
    ],
-   "seq": 3,
-   "total": 4,
-   "prevId": "000088",
-   "prevName": "지리산(광주)휴게소",
-   "prevKm": 44.1
+   "seq": 5,
+   "total": 6,
+   "prevId": "000439",
+   "prevName": "남원(광주)휴게소",
+   "prevKm": 19.8
   },
   {
    "id": "000236",
@@ -22235,6 +22387,41 @@
    "prevKm": 33.5
   },
   {
+   "id": "000407",
+   "name": "영암(목포)휴게소",
+   "route": "남해선(영암-순천)",
+   "unitCode": "",
+   "routeNo": "0101",
+   "geocoded": true,
+   "dir": "상행",
+   "lat": 34.73167,
+   "lng": 126.59563,
+   "addr": "전남 영암군 학산면 상월리 산 117-5",
+   "tel": "07043258112",
+   "parking": {
+    "car": 22,
+    "truck": 10,
+    "disabled": 3
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 0,
+   "total": 3,
+   "nextId": "000575",
+   "nextName": "장흥정남진휴게소",
+   "nextKm": 28.4
+  },
+  {
    "id": "000575",
    "name": "장흥정남진휴게소",
    "route": "남해선(영암-순천)",
@@ -22530,11 +22717,14 @@
      "prem": false
     }
    ],
-   "seq": 0,
-   "total": 2,
+   "seq": 1,
+   "total": 3,
    "nextId": "000401",
    "nextName": "보성녹차(영암)휴게소",
-   "nextKm": 22.1
+   "nextKm": 22.1,
+   "prevId": "000407",
+   "prevName": "영암(목포)휴게소",
+   "prevKm": 28.4
   },
   {
    "id": "000401",
@@ -22759,8 +22949,8 @@
      "prem": false
     }
    ],
-   "seq": 1,
-   "total": 2,
+   "seq": 2,
+   "total": 3,
    "prevId": "000575",
    "prevName": "장흥정남진휴게소",
    "prevKm": 22.1
@@ -22999,7 +23189,45 @@
     }
    ],
    "seq": 0,
-   "total": 1
+   "total": 2,
+   "nextId": "000406",
+   "nextName": "영암(광양)휴게소",
+   "nextKm": 54.1
+  },
+  {
+   "id": "000406",
+   "name": "영암(광양)휴게소",
+   "route": "남해선(영암-순천)",
+   "unitCode": "",
+   "routeNo": "0101",
+   "geocoded": true,
+   "dir": "하행",
+   "lat": 34.73167,
+   "lng": 126.59563,
+   "addr": "전남 영암군 학산면 상월리 산 117-7",
+   "tel": "07043258112",
+   "parking": {
+    "car": 22,
+    "truck": 10,
+    "disabled": 3
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 1,
+   "total": 2,
+   "prevId": "000400",
+   "prevName": "보성녹차(순천)휴게소",
+   "prevKm": 54.1
   },
   {
    "id": "000592",
@@ -44756,7 +44984,7 @@
     }
    ],
    "seq": 0,
-   "total": 2,
+   "total": 3,
    "nextId": "000605",
    "nextName": "처인휴게소",
    "nextKm": 17.5
@@ -45494,10 +45722,80 @@
     }
    ],
    "seq": 1,
-   "total": 2,
+   "total": 3,
+   "nextId": "000526",
+   "nextName": "별내(포천)휴게소",
+   "nextKm": 44.7,
    "prevId": "000608",
    "prevName": "고삼호수휴게소",
    "prevKm": 17.5
+  },
+  {
+   "id": "000526",
+   "name": "별내(포천)휴게소",
+   "route": "세종포천선",
+   "unitCode": "",
+   "routeNo": "0290",
+   "geocoded": true,
+   "dir": "상행",
+   "lat": 37.63594,
+   "lng": 127.216505,
+   "addr": "경기도 남양주시 별내중앙로58번길 30 ",
+   "tel": "031)5249773",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 2,
+   "total": 3,
+   "prevId": "000605",
+   "prevName": "처인휴게소",
+   "prevKm": 44.7
+  },
+  {
+   "id": "000524",
+   "name": "의정부(구리)휴게소",
+   "route": "세종포천선",
+   "unitCode": "",
+   "routeNo": "0290",
+   "geocoded": true,
+   "dir": "하행",
+   "lat": 37.709421,
+   "lng": 127.122385,
+   "addr": "경기도 남양주시 별내2로 117 (별내농협) 별내면 광전리 산 110-5 외 3필지",
+   "tel": "0319284113",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 0,
+   "total": 1
   },
   {
    "id": "000560",
@@ -56644,7 +56942,80 @@
     }
    ],
    "seq": 0,
-   "total": 1
+   "total": 2,
+   "nextId": "000394",
+   "nextName": "완주(익산)휴게소",
+   "nextKm": 29.1
+  },
+  {
+   "id": "000394",
+   "name": "완주(익산)휴게소",
+   "route": "완주장수선",
+   "unitCode": "",
+   "routeNo": "0205",
+   "geocoded": true,
+   "dir": "상행",
+   "lat": 35.9039,
+   "lng": 127.1622,
+   "addr": "전북 완주군 용진면 상삼리 산 49-3",
+   "tel": "0000000000",
+   "parking": {
+    "car": 36,
+    "truck": 16,
+    "disabled": 52
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 1,
+   "total": 2,
+   "prevId": "000285",
+   "prevName": "진안마이산(익산)휴게소",
+   "prevKm": 29.1
+  },
+  {
+   "id": "000395",
+   "name": "완주(장수)휴게소",
+   "route": "완주장수선",
+   "unitCode": "",
+   "routeNo": "0205",
+   "geocoded": true,
+   "dir": "하행",
+   "lat": 35.9039,
+   "lng": 127.1622,
+   "addr": "전북 완주군 용진면 상삼리 산 106",
+   "tel": "0632446601",
+   "parking": {
+    "car": 36,
+    "truck": 16,
+    "disabled": 52
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 0,
+   "total": 2,
+   "nextId": "000286",
+   "nextName": "진안마이산(장수)휴게소",
+   "nextKm": 29.1
   },
   {
    "id": "000286",
@@ -56942,8 +57313,11 @@
      "prem": true
     }
    ],
-   "seq": 0,
-   "total": 1
+   "seq": 1,
+   "total": 2,
+   "prevId": "000395",
+   "prevName": "완주(장수)휴게소",
+   "prevKm": 29.1
   },
   {
    "id": "000483",
@@ -86544,6 +86918,6 @@
    "total": 1
   }
  ],
- "version": "0c80851bb71f",
- "builtAt": "2026-09-04 20:04"
+ "version": "0b0ccaccd5d2",
+ "builtAt": "2026-09-04 20:08"
 }
