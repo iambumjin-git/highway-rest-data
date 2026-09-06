@@ -21,9 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # App Check를 켜면 API 키 호출은 막힌다. 서비스 계정으로 붙는다.
+      - run: pip install --quiet google-auth
+
       - name: 스냅샷 만들기
         env:
-          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
           SNAPSHOT_PATH: votes.json
         run: python3 tools/make_snapshot.py
 

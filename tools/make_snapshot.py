@@ -12,8 +12,28 @@ from datetime import datetime, timezone, timedelta
 
 PROJECT = 'highway-rest-70324'
 BASE = f'https://firestore.googleapis.com/v1/projects/{PROJECT}/databases/(default)/documents'
-KEY = os.environ.get('FIREBASE_API_KEY', '')
+SA = os.environ.get('FIREBASE_SA', '')   # 서비스 계정 키(JSON 문자열)
 OUT = os.environ.get('SNAPSHOT_PATH', 'votes.json')
+
+_token = None
+
+
+def token():
+    """서비스 계정 액세스 토큰.
+
+    App Check를 켜면 API 키 호출은 막힌다. 서비스 계정은 관리자 자격이라
+    App Check 검증 대상이 아니므로 수집기는 이쪽으로 붙는다.
+    """
+    global _token
+    if _token is None:
+        from google.oauth2 import service_account
+        from google.auth.transport.requests import Request
+        creds = service_account.Credentials.from_service_account_info(
+            json.loads(SA),
+            scopes=['https://www.googleapis.com/auth/datastore'])
+        creds.refresh(Request())
+        _token = creds.token
+    return _token
 
 
 def _val(v):
@@ -39,9 +59,10 @@ def run_query(collection, since):
         q['structuredQuery']['orderBy'] = [
             {'field': {'fieldPath': 'updatedAt'}, 'direction': 'ASCENDING'}]
     req = urllib.request.Request(
-        f'{BASE}:runQuery?key={KEY}',
+        f'{BASE}:runQuery',
         data=json.dumps(q).encode(),
-        headers={'Content-Type': 'application/json'})
+        headers={'Content-Type': 'application/json',
+                 'Authorization': f'Bearer {token()}'})
     with urllib.request.urlopen(req, timeout=40) as r:
         rows = json.loads(r.read().decode())
     out = {}
@@ -117,8 +138,8 @@ def _monthly(rest):
 
 
 def main():
-    if not KEY:
-        print('FIREBASE_API_KEY 가 없습니다', file=sys.stderr)
+    if not SA:
+        print('FIREBASE_SA 가 없습니다', file=sys.stderr)
         sys.exit(1)
 
     prev = {}
