@@ -150,14 +150,15 @@ def main():
             prev = {}
 
     since = prev.get('at')
-    # 첫 실행이거나 오래됐으면 전체를 다시 받는다
-    full = since is None
-    if since:
+    # 변경분만 받으면 삭제된 문서가 영영 남는다.
+    # at은 실행할 때마다 갱신되므로 전체 수집 시각(fullAt)을 따로 본다.
+    full_at = prev.get('fullAt')
+    full = since is None or full_at is None
+    if not full:
         try:
             age = datetime.now(timezone.utc) - datetime.fromisoformat(
-                since.replace('Z', '+00:00'))
-            if age > timedelta(days=1):
-                full = True
+                full_at.replace('Z', '+00:00'))
+            full = age > timedelta(days=1)
         except Exception:
             full = True
 
@@ -182,8 +183,10 @@ def main():
     # 그래서 하루에 한 번 스냅샷을 남겨두고, 30일 전 값과의 차이를 낸다.
     month = _monthly(rest)
 
+    now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     data = {
-        'at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'at': now,
+        'fullAt': now if full else full_at,
         'mode': 'full' if full else 'incremental',
         'rest': rest,
         'menuMonth': month,
