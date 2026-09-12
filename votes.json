@@ -1,8 +1,8 @@
 {
- "at": "2026-09-12T16:29:05Z",
+ "at": "2026-09-12T18:39:46Z",
  "fullAt": "2026-09-12T16:29:05Z",
  "menuMonth": {},
- "mode": "full",
+ "mode": "incremental",
  "rest": {
   "000001": {
    "m10384_like": 3
