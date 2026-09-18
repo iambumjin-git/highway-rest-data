@@ -46,6 +46,247 @@
  ],
  "rests": [
   {
+   "id": "000062",
+   "name": "양산(서울)휴게소",
+   "route": "경부선",
+   "unitCode": "132",
+   "routeNo": "0010",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "상행",
+   "lat": 35.323178,
+   "lng": 129.056383,
+   "addr": "경남 양산시 동면 내송리 788번지",
+   "tel": "0553840144",
+   "parking": {
+    "car": 172,
+    "truck": 35,
+    "disabled": 212
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": true,
+    "atm": true
+   },
+   "facilities": {
+    "수유실": {
+     "time": "06:00~22:00",
+     "desc": "매장 내 편의점 옆 위치"
+    },
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": "편의점 내 1대"
+    },
+    "편의점": {
+     "time": "06:00~22:00",
+     "desc": "CU편의점(22시~06시 무인운영)"
+    },
+    "열린매장(간식)": {
+     "time": "08:00~19:00",
+     "desc": "할리스커피,스낵코너"
+    },
+    "기타": {
+     "time": "06:30~20:00",
+     "desc": "식당가"
+    }
+   },
+   "brands": [
+    "CU",
+    "할리스커피"
+   ],
+   "menus": [
+    {
+     "seq": "6622",
+     "name": "해양산 얼큰우동돼지국밥",
+     "price": 10500,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "758",
+     "name": "돌솥비빔밥",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "3635",
+     "name": "순두부찌개",
+     "price": 9500,
+     "desc": "",
+     "material": "순두부 해산물 육수 양념장 계란 파",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "21805",
+     "name": "(실속)등심돈가스",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "16147",
+     "name": "(실속)실속우동",
+     "price": 5500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6624",
+     "name": "ex라면",
+     "price": 4000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6621",
+     "name": "김치찌개",
+     "price": 9500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "3645",
+     "name": "꼬지어묵우동",
+     "price": 7000,
+     "desc": "",
+     "material": "꼬지어묵 유부 치커리 맛살 파 김",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "3648",
+     "name": "냄비우동",
+     "price": 7500,
+     "desc": "",
+     "material": "꼬지어묵 우동육수 치커리 맛살 파 김",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "10181",
+     "name": "냉모밀국수",
+     "price": 7500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6623",
+     "name": "된장찌개",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6627",
+     "name": "떡만두라면정식",
+     "price": 6500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "17786",
+     "name": "왕돈가스",
+     "price": 13000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "3644",
+     "name": "유부우동",
+     "price": 6500,
+     "desc": "유부와 우동육수에 쫄깃한우동 면 국물이 시원한맛",
+     "material": "우동면 우동육수 유부채 맛살 파 김가루",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "15766",
+     "name": "육개장",
+     "price": 9500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6629",
+     "name": "충무김밥",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6631",
+     "name": "치즈돈가스",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6626",
+     "name": "콩나물해장라면",
+     "price": 5500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
+   "seq": 0,
+   "total": 20,
+   "nextId": "000057",
+   "nextName": "언양(서울)휴게소",
+   "nextKm": 31.5
+  },
+  {
    "id": "000057",
    "name": "언양(서울)휴게소",
    "route": "경부선",
@@ -563,11 +804,14 @@
      "prem": false
     }
    ],
-   "seq": 0,
+   "seq": 1,
    "total": 20,
    "nextId": "000052",
    "nextName": "건천(서울)휴게소",
-   "nextKm": 26.1
+   "nextKm": 26.1,
+   "prevId": "000062",
+   "prevName": "양산(서울)휴게소",
+   "prevKm": 31.5
   },
   {
    "id": "000052",
@@ -1093,258 +1337,14 @@
      "prem": false
     }
    ],
-   "seq": 1,
-   "total": 20,
-   "nextId": "000062",
-   "nextName": "양산(서울)휴게소",
-   "nextKm": 56.7,
-   "prevId": "000057",
-   "prevName": "언양(서울)휴게소",
-   "prevKm": 26.1
-  },
-  {
-   "id": "000062",
-   "name": "양산(서울)휴게소",
-   "route": "경부선",
-   "unitCode": "132",
-   "routeNo": "0010",
-   "geocoded": false,
-   "kind": "rest",
-   "dir": "상행",
-   "lat": 35.323178,
-   "lng": 129.056383,
-   "addr": "경남 양산시 동면 내송리 788번지",
-   "tel": "0553840144",
-   "parking": {
-    "car": 172,
-    "truck": 35,
-    "disabled": 212
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": true,
-    "atm": true
-   },
-   "facilities": {
-    "수유실": {
-     "time": "06:00~22:00",
-     "desc": "매장 내 편의점 옆 위치"
-    },
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": "편의점 내 1대"
-    },
-    "편의점": {
-     "time": "06:00~22:00",
-     "desc": "CU편의점(22시~06시 무인운영)"
-    },
-    "열린매장(간식)": {
-     "time": "08:00~19:00",
-     "desc": "할리스커피,스낵코너"
-    },
-    "기타": {
-     "time": "06:30~20:00",
-     "desc": "식당가"
-    }
-   },
-   "brands": [
-    "CU",
-    "할리스커피"
-   ],
-   "menus": [
-    {
-     "seq": "6622",
-     "name": "해양산 얼큰우동돼지국밥",
-     "price": 10500,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "758",
-     "name": "돌솥비빔밥",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "3635",
-     "name": "순두부찌개",
-     "price": 9500,
-     "desc": "",
-     "material": "순두부 해산물 육수 양념장 계란 파",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "21805",
-     "name": "(실속)등심돈가스",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "16147",
-     "name": "(실속)실속우동",
-     "price": 5500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6624",
-     "name": "ex라면",
-     "price": 4000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6621",
-     "name": "김치찌개",
-     "price": 9500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "3645",
-     "name": "꼬지어묵우동",
-     "price": 7000,
-     "desc": "",
-     "material": "꼬지어묵 유부 치커리 맛살 파 김",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "3648",
-     "name": "냄비우동",
-     "price": 7500,
-     "desc": "",
-     "material": "꼬지어묵 우동육수 치커리 맛살 파 김",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "10181",
-     "name": "냉모밀국수",
-     "price": 7500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6623",
-     "name": "된장찌개",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6627",
-     "name": "떡만두라면정식",
-     "price": 6500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "17786",
-     "name": "왕돈가스",
-     "price": 13000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "3644",
-     "name": "유부우동",
-     "price": 6500,
-     "desc": "유부와 우동육수에 쫄깃한우동 면 국물이 시원한맛",
-     "material": "우동면 우동육수 유부채 맛살 파 김가루",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "15766",
-     "name": "육개장",
-     "price": 9500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6629",
-     "name": "충무김밥",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6631",
-     "name": "치즈돈가스",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6626",
-     "name": "콩나물해장라면",
-     "price": 5500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
    "seq": 2,
    "total": 20,
    "nextId": "000048",
    "nextName": "경산(서울)휴게소",
-   "nextKm": 65.7,
-   "prevId": "000052",
-   "prevName": "건천(서울)휴게소",
-   "prevKm": 56.7
+   "nextKm": 27.5,
+   "prevId": "000057",
+   "prevName": "언양(서울)휴게소",
+   "prevKm": 26.1
   },
   {
    "id": "000048",
@@ -1695,9 +1695,9 @@
    "nextId": "000452",
    "nextName": "검단졸음쉼터(서울)",
    "nextKm": 19.3,
-   "prevId": "000062",
-   "prevName": "양산(서울)휴게소",
-   "prevKm": 65.7
+   "prevId": "000052",
+   "prevName": "건천(서울)휴게소",
+   "prevKm": 27.5
   },
   {
    "id": "000452",
@@ -3281,390 +3281,12 @@
    ],
    "seq": 10,
    "total": 20,
-   "nextId": "000024",
-   "nextName": "죽암(서울)휴게소",
-   "nextKm": 26.8,
+   "nextId": "000028",
+   "nextName": "신탄진(서울)휴게소",
+   "nextKm": 21.6,
    "prevId": "000038",
    "prevName": "황간(서울)휴게소",
    "prevKm": 23.5
-  },
-  {
-   "id": "000024",
-   "name": "죽암(서울)휴게소",
-   "route": "경부선",
-   "unitCode": "035",
-   "routeNo": "0010",
-   "geocoded": false,
-   "kind": "rest",
-   "dir": "상행",
-   "lat": 36.496756,
-   "lng": 127.430429,
-   "addr": "충북 청원군 현도면 죽전리 314",
-   "tel": "0432608035",
-   "parking": {
-    "car": 202,
-    "truck": 41,
-    "disabled": 249
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": true,
-    "cvs": false,
-    "atm": true
-   },
-   "facilities": {
-    "수유실": {
-     "time": "00:00~00:00",
-     "desc": "수유침대, 수유쇼파, 정수기, 전자레인지, 싱크대 등 24시간 이용가능"
-    },
-    "경정비": {
-     "time": "09:00~20:00",
-     "desc": "출장이 잦아 정비사 개인연락처로 문의하고 방문해야 함(010-2344-0982)"
-    },
-    "ATM": {
-     "time": "00:00~00:00",
-     "desc": ""
-    }
-   },
-   "brands": [
-    "드롭탑(커피전문점)",
-    "로띠번",
-    "엔제리너스",
-    "탐앤탐스"
-   ],
-   "menus": [
-    {
-     "seq": "22138",
-     "name": "대패삼겹덮밥",
-     "price": 11500,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6165",
-     "name": "수제돈가스",
-     "price": 12000,
-     "desc": "얼리지 않은 생고기를 직접 가공해 만드는 수제돈가스",
-     "material": "생고기, 빵가루 기타등등",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6995",
-     "name": "ex라면",
-     "price": 4000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "6979",
-     "name": "돼지김치찌개",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "22150",
-     "name": "들기름호박국수",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "6166",
-     "name": "치킨마요덮밥",
-     "price": 8000,
-     "desc": "치킨마요덮밥",
-     "material": "순살치킨, 밥, 계란지단, 간장소스, 마요네즈소스 기타 등등",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "22141",
-     "name": "가지덮밥",
-     "price": 9500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "22139",
-     "name": "간장대패덮밥",
-     "price": 11500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "22144",
-     "name": "계란매콤대패덮밥",
-     "price": 12500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22145",
-     "name": "계란주꾸미덮밥",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22147",
-     "name": "계란카레덮밥",
-     "price": 11500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22136",
-     "name": "고기듬뿍짜글",
-     "price": 13000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "22146",
-     "name": "고기듬뿍짜장덮밥",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22149",
-     "name": "대패비빔국수",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6996",
-     "name": "떡라면",
-     "price": 5000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6981",
-     "name": "뚝배기불고기",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "18635",
-     "name": "마늘수제돈가스",
-     "price": 13000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22151",
-     "name": "만두국",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6997",
-     "name": "만두라면",
-     "price": 5000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22140",
-     "name": "매콤대패덮밥",
-     "price": 11500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "6999",
-     "name": "쇠고기쌀국수",
-     "price": 8000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6980",
-     "name": "순두부찌개",
-     "price": 9500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22137",
-     "name": "실속김치된장짜글이",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6978",
-     "name": "실속황태해장국",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6992",
-     "name": "어묵우동",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7000",
-     "name": "얼큰쇠고기쌀국수",
-     "price": 8000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22148",
-     "name": "오이냉국수",
-     "price": 9000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6987",
-     "name": "우거지해장국",
-     "price": 9000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6993",
-     "name": "유부우동",
-     "price": 6000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22142",
-     "name": "주꾸미덮밥",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "6984",
-     "name": "청원생명쌀돌솥비빔밥",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22143",
-     "name": "카레덮밥",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 11,
-   "total": 20,
-   "nextId": "000028",
-   "nextName": "신탄진(서울)휴게소",
-   "nextKm": 7.9,
-   "prevId": "000032",
-   "prevName": "옥천(서울)휴게소",
-   "prevKm": 26.8
   },
   {
    "id": "000028",
@@ -4274,13 +3896,391 @@
      "prem": false
     }
    ],
+   "seq": 11,
+   "total": 20,
+   "nextId": "000024",
+   "nextName": "죽암(서울)휴게소",
+   "nextKm": 7.9,
+   "prevId": "000032",
+   "prevName": "옥천(서울)휴게소",
+   "prevKm": 21.6
+  },
+  {
+   "id": "000024",
+   "name": "죽암(서울)휴게소",
+   "route": "경부선",
+   "unitCode": "035",
+   "routeNo": "0010",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "상행",
+   "lat": 36.496756,
+   "lng": 127.430429,
+   "addr": "충북 청원군 현도면 죽전리 314",
+   "tel": "0432608035",
+   "parking": {
+    "car": 202,
+    "truck": 41,
+    "disabled": 249
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": true,
+    "cvs": false,
+    "atm": true
+   },
+   "facilities": {
+    "수유실": {
+     "time": "00:00~00:00",
+     "desc": "수유침대, 수유쇼파, 정수기, 전자레인지, 싱크대 등 24시간 이용가능"
+    },
+    "경정비": {
+     "time": "09:00~20:00",
+     "desc": "출장이 잦아 정비사 개인연락처로 문의하고 방문해야 함(010-2344-0982)"
+    },
+    "ATM": {
+     "time": "00:00~00:00",
+     "desc": ""
+    }
+   },
+   "brands": [
+    "드롭탑(커피전문점)",
+    "로띠번",
+    "엔제리너스",
+    "탐앤탐스"
+   ],
+   "menus": [
+    {
+     "seq": "22138",
+     "name": "대패삼겹덮밥",
+     "price": 11500,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6165",
+     "name": "수제돈가스",
+     "price": 12000,
+     "desc": "얼리지 않은 생고기를 직접 가공해 만드는 수제돈가스",
+     "material": "생고기, 빵가루 기타등등",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6995",
+     "name": "ex라면",
+     "price": 4000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "6979",
+     "name": "돼지김치찌개",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "22150",
+     "name": "들기름호박국수",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "6166",
+     "name": "치킨마요덮밥",
+     "price": 8000,
+     "desc": "치킨마요덮밥",
+     "material": "순살치킨, 밥, 계란지단, 간장소스, 마요네즈소스 기타 등등",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "22141",
+     "name": "가지덮밥",
+     "price": 9500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "22139",
+     "name": "간장대패덮밥",
+     "price": 11500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "22144",
+     "name": "계란매콤대패덮밥",
+     "price": 12500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22145",
+     "name": "계란주꾸미덮밥",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22147",
+     "name": "계란카레덮밥",
+     "price": 11500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22136",
+     "name": "고기듬뿍짜글",
+     "price": 13000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "22146",
+     "name": "고기듬뿍짜장덮밥",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22149",
+     "name": "대패비빔국수",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6996",
+     "name": "떡라면",
+     "price": 5000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6981",
+     "name": "뚝배기불고기",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "18635",
+     "name": "마늘수제돈가스",
+     "price": 13000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22151",
+     "name": "만두국",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6997",
+     "name": "만두라면",
+     "price": 5000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22140",
+     "name": "매콤대패덮밥",
+     "price": 11500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "6999",
+     "name": "쇠고기쌀국수",
+     "price": 8000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6980",
+     "name": "순두부찌개",
+     "price": 9500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22137",
+     "name": "실속김치된장짜글이",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6978",
+     "name": "실속황태해장국",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6992",
+     "name": "어묵우동",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7000",
+     "name": "얼큰쇠고기쌀국수",
+     "price": 8000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22148",
+     "name": "오이냉국수",
+     "price": 9000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6987",
+     "name": "우거지해장국",
+     "price": 9000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6993",
+     "name": "유부우동",
+     "price": 6000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22142",
+     "name": "주꾸미덮밥",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "6984",
+     "name": "청원생명쌀돌솥비빔밥",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22143",
+     "name": "카레덮밥",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
    "seq": 12,
    "total": 20,
    "nextId": "000019",
    "nextName": "청주(서울)휴게소",
-   "nextKm": 32.8,
-   "prevId": "000024",
-   "prevName": "죽암(서울)휴게소",
+   "nextKm": 25.5,
+   "prevId": "000028",
+   "prevName": "신탄진(서울)휴게소",
    "prevKm": 7.9
   },
   {
@@ -4647,598 +4647,12 @@
    ],
    "seq": 13,
    "total": 20,
-   "nextId": "000011",
-   "nextName": "입장거봉포도(서울)휴게소",
-   "nextKm": 28.7,
-   "prevId": "000028",
-   "prevName": "신탄진(서울)휴게소",
-   "prevKm": 32.8
-  },
-  {
-   "id": "000011",
-   "name": "입장거봉포도(서울)휴게소",
-   "route": "경부선",
-   "unitCode": "050",
-   "routeNo": "0010",
-   "geocoded": false,
-   "kind": "rest",
-   "dir": "상행",
-   "lat": 36.942386,
-   "lng": 127.192181,
-   "addr": "충청남도 천안시 서북구 입장면 연곡길 407",
-   "tel": "0415887868",
-   "parking": {
-    "car": 140,
-    "truck": 198,
-    "disabled": 12
-   },
-   "tags": {
-    "shower": true,
-    "sleep": true,
-    "laundry": true,
-    "lounge": true,
-    "repair": false,
-    "cvs": true,
-    "atm": true
-   },
-   "facilities": {
-    "수면실": {
-     "time": "00:00~24:00",
-     "desc": "온돌침대 6실, 일반실 2실"
-    },
-    "샤워실": {
-     "time": "00:00~24:00",
-     "desc": "샤워기 8개 구비"
-    },
-    "세탁실": {
-     "time": "00:00~24:00",
-     "desc": "세탁기 1대 및 건조기 대형 1대 구비"
-    },
-    "수유실": {
-     "time": "00:00~24:00",
-     "desc": "정수기, 에어컨, 공기청정기, 전자렌지, 젓병소독기 등 구비"
-    },
-    "쉼터": {
-     "time": "00:00~24:00",
-     "desc": "게임기 앞  야외 좌석 테이블 7조(하절기 색동 호박 넝쿨 조성)"
-    },
-    "ex-화물차라운지": {
-     "time": "00:00~24:00",
-     "desc": "샤워실, 수면실, 휴게실, 세탁실 구비"
-    },
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": "한네트 2대"
-    },
-    "편의점": {
-     "time": "00:00~24:00",
-     "desc": "편의점 (24시간운영중) ※ 야간시간대 식사대체 메뉴  냉동김밥2종.주먹밥2종.햄버거.냉동만두2종 이용가능"
-    }
-   },
-   "brands": [
-    "던킨도너츠",
-    "탐앤탐스"
-   ],
-   "menus": [
-    {
-     "seq": "5503",
-     "name": "입장거봉포도 돈가스",
-     "price": 11000,
-     "desc": "국내산 돈등심 을 12시간 포도즙으로 재워 만든 돈가스\r\n입장 명물 거봉보도 즙으로 고기를 재워 고기가 부드럽고 좋음",
-     "material": "돈가스 패티. 양배추.토마토 . 돈가스 소스 . 스프 단무지",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "1241",
-     "name": "흑돼지김치찌개",
-     "price": 10000,
-     "desc": "김치와 흑돼지의 진한 향기가 어우러져 얼큰하고 깊은 맛을 자랑하는 흑돼지 김치찌개",
-     "material": "흑돼지(90g), 김치(160g), 판두부(30g), 깐대파(5g), 고춧가루(5g),  , 다시다(3g), 팽이버섯(3g)",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7886",
-     "name": "거봉포도치즈 돈가스",
-     "price": 12000,
-     "desc": "입장휴게소 대표메뉴 거봉포도 돈가스 에 치즈를 첨가한 돈가스",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "1248",
-     "name": "계란라면정식",
-     "price": 6000,
-     "desc": "공기밥+신라면\r\n한끼식사",
-     "material": "신라면. 공기밥. 계란. 대파.",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "12056",
-     "name": "사골우거지국(실속상품)",
-     "price": 7000,
-     "desc": "저희 휴게소 조리실장 추천메뉴\r\n24년 입장휴게소 알뜰메뉴",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "19771",
-     "name": "청주식흑돼지짜글이",
-     "price": 10000,
-     "desc": "입장휴게소 25년 5월 신규 메뉴 출시 상품 (청주식흑돼지짜글이)입니다.\r\n돼지고기가 많이 들어가고  밥과 비벼 먹으면 맛이 두배가 되는 메뉴 입니다.",
-     "material": "1. 돼지고기, 2. 버섯, 3.양파 등",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "4753",
-     "name": "한신삼진어묵우동",
-     "price": 7500,
-     "desc": "우동과  프리미엄 삼진어묵을 넣어 국물맛이 시원함",
-     "material": "우동면. 삼진꼬치어묵1개, 배합육수450g,채썬유부5g,쑥갓15g등",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "22002",
-     "name": "(실속상품)돈가스",
-     "price": 10000,
-     "desc": "입장휴게소 26년 실속메뉴 추가\r\n실속돈가스 저렴한 가격 150g 이상의 두툼한 고기.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "21633",
-     "name": "(실속상품)소고기미역국",
-     "price": 7000,
-     "desc": "소고기를 넣어 깊고 진한 국물맛이 좋습니다.",
-     "material": "소고기.미역등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "15975",
-     "name": "(실속상품)한신즉석우동",
-     "price": 5500,
-     "desc": "휴게소 신규 실속상품 6월1일부 판매 시작\r\n깔끔한 국물맛과 쫄깃한 면발이 좋음.",
-     "material": "우동면. 배합육수 채썬유부, 채썬대파, 조미김가루,쑥갓,다대기emd.",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7880",
-     "name": "ex라면",
-     "price": 4000,
-     "desc": "휴게소 대표 라면",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "4757",
-     "name": "계란김치라면",
-     "price": 5500,
-     "desc": "신라면 + 김치를 넣어 국물이 시원 한 맛",
-     "material": "신라면 . 김치 40g , 계란등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "4759",
-     "name": "계란떡라면",
-     "price": 5500,
-     "desc": "신라면 + 떡",
-     "material": "신라면.쌀떡 40g  계란. 대파",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23008",
-     "name": "고추장대패덮밥",
-     "price": 10000,
-     "desc": "비법고추장양념에 대패삼겹살을 올려 만든 덮밥",
-     "material": "양념고추장, 대패삼겹살, 밥",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "19711",
-     "name": "김치비빔국수",
-     "price": 8000,
-     "desc": "매콤한소스에 얇게 썰은 김치 베이스가 남녀 누구나 좋아할 양념.\r\n비빔면과 소스 그리고 삶은 계란이 너무 잘어루이는 하절기 특별 메뉴",
-     "material": "1.비빔면, 2.양념장, 3.김치, 4.계란 등.",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12075",
-     "name": "김치삼겹덮밥",
-     "price": 8000,
-     "desc": "김치와삼겹살을 볶아 맛있는 볶음밥 같은 맛\r\n 매장에서 식사를 못하시는 고객을 위해 take-out 이 가능",
-     "material": "삼겹살.김치.김,파 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23007",
-     "name": "꼬막비빔밥",
-     "price": 10000,
-     "desc": "꼬들꼬들한 꼬막에 비법 양념간장을 넣고 만든 고소한 꼬막비빔밥",
-     "material": "밥, 꼬막, 당근, 부추, 양념간장",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "19710",
-     "name": "냉모밀소바",
-     "price": 7500,
-     "desc": "입장휴게소 하절기 대표 메뉴\r\n가슴속 까지 시원한 국물과 쫄깃한 면.. 그리고 겨자소스를 찍어 먹으면 맛이 2배 좋은 여름에 대표적인 메뉴",
-     "material": "1.냉모밀 면, 2.계란, 3.육수, 4.배즙, 5.겨자 등.",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "4751",
-     "name": "도시락유부우동세트",
-     "price": 11000,
-     "desc": "옛날 추억의 도시락과 우동이 잘 어울림",
-     "material": "우동면.건더기스프 10g 유부 50g  무말랭이 40g 고추장 멸치조림 40g, 소세지 30g 계란 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12061",
-     "name": "동물복지 간장돼지불고기 덮밥",
-     "price": 10500,
-     "desc": "팜스코와 협업하여 신메뉴 출시\r\n스트레스를 받지 않아 더 좋은 맛과 품질",
-     "material": "돼지고기.파.양파 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12060",
-     "name": "동물복지 고추장돼지불고기 덮",
-     "price": 10500,
-     "desc": "팜스코와 협업하여 신메뉴 출시\r\n스트레스를 받지 않아 더 좋은 맛과 품질을 보장",
-     "material": "돼지고기 .파 .양파 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22000",
-     "name": "동물복지간장덮밥+제로콜라캔",
-     "price": 11600,
-     "desc": "우리휴게소 추천메뉴 동물복지간장덮밥 제로콜라캔 세트매뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22001",
-     "name": "동물복지고추장덮밥+제로콜라캔",
-     "price": 11600,
-     "desc": "우리휴게소 추천메뉴 동물복지 고추장덮밥과 제로콜라 세트메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7890",
-     "name": "두부된장찌개(실속상품/ex푸드)",
-     "price": 7000,
-     "desc": "휴게소 대표 메뉴 (22년ex푸드 선정)  깔끔하고 저렴한 대표 음식",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12067",
-     "name": "박순자 아우내순대 순대국밥",
-     "price": 10000,
-     "desc": "입장휴게소 명품먹거리 매장 대표 메뉴\r\n병천순대 맛집을 그대로 재현",
-     "material": "병천순대.돈내장.깍두기.김치 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12070",
-     "name": "박순자아우내순대 모듬순대",
-     "price": 16000,
-     "desc": "입장휴게소 명품먹거리 매장 대표 메뉴\r\n병천순대 맛집을 그대로 재현",
-     "material": "순대.돈내장.김치.깍두기등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12068",
-     "name": "박순자아우내순대 순대만국밥",
-     "price": 10000,
-     "desc": "입장휴게소 명품먹거리 매장 대표 메뉴\r\n병천순대 맛집을 그대로 재현",
-     "material": "순대.김치.깍두기 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12071",
-     "name": "삼겹살구이김밥",
-     "price": 6900,
-     "desc": "삼겹살을 맛있게 구워 넣은 김밥",
-     "material": "삼겹살.밥.김 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12077",
-     "name": "삼겹살김밥(포장용)",
-     "price": 6900,
-     "desc": "매장에서 식사 못하시는 고객님을 위해 포장용 삼겹살김밥",
-     "material": "삽겹살.김. 당근 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22447",
-     "name": "서울양평해장국",
-     "price": 14000,
-     "desc": "양평서울해장국 본점과 계약.\r\n본점과 같은 레시피 양평해장국 음식.\r\n국물과 선지의 맛이 일품임.",
-     "material": "1.소양 : 80g, 2.선진 : 120g, 3.육수 : 40g 및 콩나물 등 여러 야채",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "4745",
-     "name": "순두부찌개",
-     "price": 9500,
-     "desc": "순두부와 해물이 잘어울림\r\n국물의 맛도 시원함",
-     "material": "순두부200g 바지락 20g 오징어 15g 쥬키니 호박 25g 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "4752",
-     "name": "야채튀김우동",
-     "price": 6500,
-     "desc": "우동과 야채튀김 이 잘어울리고 국물맛이 좋음",
-     "material": "야채튀김 60g 우동면. 건더기 스프 10g 게맛살 10g 쑥갓 5g , 유부 50g",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23006",
-     "name": "열무국수",
-     "price": 8500,
-     "desc": "시원한 열무국물에 국수사리면을 추가한 열무국수",
-     "material": "사리면, 열무김치, 열무육수",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12065",
-     "name": "옛날도시락",
-     "price": 6000,
-     "desc": "추억의 옛날 도시락",
-     "material": "계란.무말랭이.고추장멸치조리",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12055",
-     "name": "육개장(호텔컬렉션)",
-     "price": 9500,
-     "desc": "신세계푸드 와 저희 케이알산업(입장휴게소)이 협업하여 만든 제품.\r\n대중적인 메뉴를 추가 하였고 기존 육개장보다 조금 더 매운 맛을 냄",
-     "material": "소고기.고사리.파 무 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "21996",
-     "name": "입장거봉포도돈가스+레몬이드",
-     "price": 12400,
-     "desc": "입장휴게소 대표메뉴 거봉포도돈가스 + 상큼한 레몬에이드 세트 메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "21998",
-     "name": "입장거봉포도돈가스+제로콜라캔",
-     "price": 12100,
-     "desc": "휴게소 대표메뉴 입장거봉포도 돈가스와 제로콜라 세트메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "21997",
-     "name": "입장거봉포도치즈돈가스+레몬에이드",
-     "price": 13400,
-     "desc": "입장휴게소 대표메뉴 입장거봉포도치즈 돈가스에 레몬에이드 세트 메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "21999",
-     "name": "입장거봉포도치즈돈가스+제로콜라캔",
-     "price": 13100,
-     "desc": "입장휴게소 대표메뉴 입장거봉포도치즈돈가스와 제로콜라캔 세트 메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12072",
-     "name": "잔치국수",
-     "price": 7000,
-     "desc": "옛날잔치국수\r\n부드러운 면과 여러 야채가 어울려 누구나 좋아하는 맛",
-     "material": "면.계란지단.당근.파 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7895",
-     "name": "충무김밥",
-     "price": 5500,
-     "desc": "라면만 먹기엔 부족?  전국적으로 유명한 김밥 ~\r\n라면,우동 과 같이~",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12064",
-     "name": "충무김밥",
-     "price": 5500,
-     "desc": "추억의 김밥",
-     "material": "오징어.무말랭이.석박지",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12066",
-     "name": "충무김밥 포장용",
-     "price": 5500,
-     "desc": "식사를 못하시는 고객님을 위한 포장 김밥입니다.",
-     "material": "무말랭이.오징어.석박지 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23000",
-     "name": "치즈돈가스",
-     "price": 12000,
-     "desc": "국내산 돼지고기 등심으로 만든 치즈돈가스",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23001",
-     "name": "치즈돈가스+레몬에이드",
-     "price": 13400,
-     "desc": "국내산 돼지고기 등심으로 만든 치즈돈가스+레몬에이드 세트메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23002",
-     "name": "치즈돈가스+제로콜라캔",
-     "price": 13100,
-     "desc": "국내산 돼지고기 등심으로 만든 치즈돈가스+제로콜라캔 세트메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "4750",
-     "name": "한신김치우동",
-     "price": 7000,
-     "desc": "쫄깃한 우동면과 김치를 넣어 얼큰한 국물이 좋음",
-     "material": "우동면. 볶음김치 120g,사각어묵 50g,배합육수450g,유부5g,쑥갓15g등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23003",
-     "name": "한신비빔우동",
-     "price": 7500,
-     "desc": "우동면에 한신비법양념장을 넣어 깔끔하고 개운한 비빔우동",
-     "material": "우동면,비빔양념장100g,삶은계란 반쪽,오이20g,쑥갓15g등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23005",
-     "name": "한신얼큰우동",
-     "price": 6000,
-     "desc": "우동면에 한신 매운다대기가 들어가 얼큰한 국물 맛의 우동",
-     "material": "우동면, 배합육수450g, 유부5g, 쑥갓15g 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23004",
-     "name": "한신해장냉우동",
-     "price": 7500,
-     "desc": "여름철 별미 냉우동",
-     "material": "우동면, 냉우동육수 450g, 단무지35g 삶은계란 반개 등",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22003",
-     "name": "흑돼지김치찌개+비락식혜",
-     "price": 11700,
-     "desc": "입장휴게소 판매율 제일 높은 김치찌개와 비락식혜 세트 메뉴로\r\n할인금약 1,000원",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 14,
-   "total": 20,
    "nextId": "000015",
    "nextName": "천안삼거리(서울)휴게소",
-   "nextKm": 17.3,
-   "prevId": "000019",
-   "prevName": "청주(서울)휴게소",
-   "prevKm": 28.7
+   "nextKm": 17.5,
+   "prevId": "000024",
+   "prevName": "죽암(서울)휴게소",
+   "prevKm": 25.5
   },
   {
    "id": "000015",
@@ -6299,13 +5713,599 @@
      "prem": false
     }
    ],
+   "seq": 14,
+   "total": 20,
+   "nextId": "000011",
+   "nextName": "입장거봉포도(서울)휴게소",
+   "nextKm": 17.3,
+   "prevId": "000019",
+   "prevName": "청주(서울)휴게소",
+   "prevKm": 17.5
+  },
+  {
+   "id": "000011",
+   "name": "입장거봉포도(서울)휴게소",
+   "route": "경부선",
+   "unitCode": "050",
+   "routeNo": "0010",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "상행",
+   "lat": 36.942386,
+   "lng": 127.192181,
+   "addr": "충청남도 천안시 서북구 입장면 연곡길 407",
+   "tel": "0415887868",
+   "parking": {
+    "car": 140,
+    "truck": 198,
+    "disabled": 12
+   },
+   "tags": {
+    "shower": true,
+    "sleep": true,
+    "laundry": true,
+    "lounge": true,
+    "repair": false,
+    "cvs": true,
+    "atm": true
+   },
+   "facilities": {
+    "수면실": {
+     "time": "00:00~24:00",
+     "desc": "온돌침대 6실, 일반실 2실"
+    },
+    "샤워실": {
+     "time": "00:00~24:00",
+     "desc": "샤워기 8개 구비"
+    },
+    "세탁실": {
+     "time": "00:00~24:00",
+     "desc": "세탁기 1대 및 건조기 대형 1대 구비"
+    },
+    "수유실": {
+     "time": "00:00~24:00",
+     "desc": "정수기, 에어컨, 공기청정기, 전자렌지, 젓병소독기 등 구비"
+    },
+    "쉼터": {
+     "time": "00:00~24:00",
+     "desc": "게임기 앞  야외 좌석 테이블 7조(하절기 색동 호박 넝쿨 조성)"
+    },
+    "ex-화물차라운지": {
+     "time": "00:00~24:00",
+     "desc": "샤워실, 수면실, 휴게실, 세탁실 구비"
+    },
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": "한네트 2대"
+    },
+    "편의점": {
+     "time": "00:00~24:00",
+     "desc": "편의점 (24시간운영중) ※ 야간시간대 식사대체 메뉴  냉동김밥2종.주먹밥2종.햄버거.냉동만두2종 이용가능"
+    }
+   },
+   "brands": [
+    "던킨도너츠",
+    "탐앤탐스"
+   ],
+   "menus": [
+    {
+     "seq": "5503",
+     "name": "입장거봉포도 돈가스",
+     "price": 11000,
+     "desc": "국내산 돈등심 을 12시간 포도즙으로 재워 만든 돈가스\r\n입장 명물 거봉보도 즙으로 고기를 재워 고기가 부드럽고 좋음",
+     "material": "돈가스 패티. 양배추.토마토 . 돈가스 소스 . 스프 단무지",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "1241",
+     "name": "흑돼지김치찌개",
+     "price": 10000,
+     "desc": "김치와 흑돼지의 진한 향기가 어우러져 얼큰하고 깊은 맛을 자랑하는 흑돼지 김치찌개",
+     "material": "흑돼지(90g), 김치(160g), 판두부(30g), 깐대파(5g), 고춧가루(5g),  , 다시다(3g), 팽이버섯(3g)",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7886",
+     "name": "거봉포도치즈 돈가스",
+     "price": 12000,
+     "desc": "입장휴게소 대표메뉴 거봉포도 돈가스 에 치즈를 첨가한 돈가스",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "1248",
+     "name": "계란라면정식",
+     "price": 6000,
+     "desc": "공기밥+신라면\r\n한끼식사",
+     "material": "신라면. 공기밥. 계란. 대파.",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "12056",
+     "name": "사골우거지국(실속상품)",
+     "price": 7000,
+     "desc": "저희 휴게소 조리실장 추천메뉴\r\n24년 입장휴게소 알뜰메뉴",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "19771",
+     "name": "청주식흑돼지짜글이",
+     "price": 10000,
+     "desc": "입장휴게소 25년 5월 신규 메뉴 출시 상품 (청주식흑돼지짜글이)입니다.\r\n돼지고기가 많이 들어가고  밥과 비벼 먹으면 맛이 두배가 되는 메뉴 입니다.",
+     "material": "1. 돼지고기, 2. 버섯, 3.양파 등",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "4753",
+     "name": "한신삼진어묵우동",
+     "price": 7500,
+     "desc": "우동과  프리미엄 삼진어묵을 넣어 국물맛이 시원함",
+     "material": "우동면. 삼진꼬치어묵1개, 배합육수450g,채썬유부5g,쑥갓15g등",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "22002",
+     "name": "(실속상품)돈가스",
+     "price": 10000,
+     "desc": "입장휴게소 26년 실속메뉴 추가\r\n실속돈가스 저렴한 가격 150g 이상의 두툼한 고기.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "21633",
+     "name": "(실속상품)소고기미역국",
+     "price": 7000,
+     "desc": "소고기를 넣어 깊고 진한 국물맛이 좋습니다.",
+     "material": "소고기.미역등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "15975",
+     "name": "(실속상품)한신즉석우동",
+     "price": 5500,
+     "desc": "휴게소 신규 실속상품 6월1일부 판매 시작\r\n깔끔한 국물맛과 쫄깃한 면발이 좋음.",
+     "material": "우동면. 배합육수 채썬유부, 채썬대파, 조미김가루,쑥갓,다대기emd.",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7880",
+     "name": "ex라면",
+     "price": 4000,
+     "desc": "휴게소 대표 라면",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "4757",
+     "name": "계란김치라면",
+     "price": 5500,
+     "desc": "신라면 + 김치를 넣어 국물이 시원 한 맛",
+     "material": "신라면 . 김치 40g , 계란등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "4759",
+     "name": "계란떡라면",
+     "price": 5500,
+     "desc": "신라면 + 떡",
+     "material": "신라면.쌀떡 40g  계란. 대파",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23008",
+     "name": "고추장대패덮밥",
+     "price": 10000,
+     "desc": "비법고추장양념에 대패삼겹살을 올려 만든 덮밥",
+     "material": "양념고추장, 대패삼겹살, 밥",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "19711",
+     "name": "김치비빔국수",
+     "price": 8000,
+     "desc": "매콤한소스에 얇게 썰은 김치 베이스가 남녀 누구나 좋아할 양념.\r\n비빔면과 소스 그리고 삶은 계란이 너무 잘어루이는 하절기 특별 메뉴",
+     "material": "1.비빔면, 2.양념장, 3.김치, 4.계란 등.",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12075",
+     "name": "김치삼겹덮밥",
+     "price": 8000,
+     "desc": "김치와삼겹살을 볶아 맛있는 볶음밥 같은 맛\r\n 매장에서 식사를 못하시는 고객을 위해 take-out 이 가능",
+     "material": "삼겹살.김치.김,파 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23007",
+     "name": "꼬막비빔밥",
+     "price": 10000,
+     "desc": "꼬들꼬들한 꼬막에 비법 양념간장을 넣고 만든 고소한 꼬막비빔밥",
+     "material": "밥, 꼬막, 당근, 부추, 양념간장",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "19710",
+     "name": "냉모밀소바",
+     "price": 7500,
+     "desc": "입장휴게소 하절기 대표 메뉴\r\n가슴속 까지 시원한 국물과 쫄깃한 면.. 그리고 겨자소스를 찍어 먹으면 맛이 2배 좋은 여름에 대표적인 메뉴",
+     "material": "1.냉모밀 면, 2.계란, 3.육수, 4.배즙, 5.겨자 등.",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "4751",
+     "name": "도시락유부우동세트",
+     "price": 11000,
+     "desc": "옛날 추억의 도시락과 우동이 잘 어울림",
+     "material": "우동면.건더기스프 10g 유부 50g  무말랭이 40g 고추장 멸치조림 40g, 소세지 30g 계란 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12061",
+     "name": "동물복지 간장돼지불고기 덮밥",
+     "price": 10500,
+     "desc": "팜스코와 협업하여 신메뉴 출시\r\n스트레스를 받지 않아 더 좋은 맛과 품질",
+     "material": "돼지고기.파.양파 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12060",
+     "name": "동물복지 고추장돼지불고기 덮",
+     "price": 10500,
+     "desc": "팜스코와 협업하여 신메뉴 출시\r\n스트레스를 받지 않아 더 좋은 맛과 품질을 보장",
+     "material": "돼지고기 .파 .양파 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22000",
+     "name": "동물복지간장덮밥+제로콜라캔",
+     "price": 11600,
+     "desc": "우리휴게소 추천메뉴 동물복지간장덮밥 제로콜라캔 세트매뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22001",
+     "name": "동물복지고추장덮밥+제로콜라캔",
+     "price": 11600,
+     "desc": "우리휴게소 추천메뉴 동물복지 고추장덮밥과 제로콜라 세트메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7890",
+     "name": "두부된장찌개(실속상품/ex푸드)",
+     "price": 7000,
+     "desc": "휴게소 대표 메뉴 (22년ex푸드 선정)  깔끔하고 저렴한 대표 음식",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12067",
+     "name": "박순자 아우내순대 순대국밥",
+     "price": 10000,
+     "desc": "입장휴게소 명품먹거리 매장 대표 메뉴\r\n병천순대 맛집을 그대로 재현",
+     "material": "병천순대.돈내장.깍두기.김치 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12070",
+     "name": "박순자아우내순대 모듬순대",
+     "price": 16000,
+     "desc": "입장휴게소 명품먹거리 매장 대표 메뉴\r\n병천순대 맛집을 그대로 재현",
+     "material": "순대.돈내장.김치.깍두기등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12068",
+     "name": "박순자아우내순대 순대만국밥",
+     "price": 10000,
+     "desc": "입장휴게소 명품먹거리 매장 대표 메뉴\r\n병천순대 맛집을 그대로 재현",
+     "material": "순대.김치.깍두기 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12071",
+     "name": "삼겹살구이김밥",
+     "price": 6900,
+     "desc": "삼겹살을 맛있게 구워 넣은 김밥",
+     "material": "삼겹살.밥.김 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12077",
+     "name": "삼겹살김밥(포장용)",
+     "price": 6900,
+     "desc": "매장에서 식사 못하시는 고객님을 위해 포장용 삼겹살김밥",
+     "material": "삽겹살.김. 당근 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22447",
+     "name": "서울양평해장국",
+     "price": 14000,
+     "desc": "양평서울해장국 본점과 계약.\r\n본점과 같은 레시피 양평해장국 음식.\r\n국물과 선지의 맛이 일품임.",
+     "material": "1.소양 : 80g, 2.선진 : 120g, 3.육수 : 40g 및 콩나물 등 여러 야채",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "4745",
+     "name": "순두부찌개",
+     "price": 9500,
+     "desc": "순두부와 해물이 잘어울림\r\n국물의 맛도 시원함",
+     "material": "순두부200g 바지락 20g 오징어 15g 쥬키니 호박 25g 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "4752",
+     "name": "야채튀김우동",
+     "price": 6500,
+     "desc": "우동과 야채튀김 이 잘어울리고 국물맛이 좋음",
+     "material": "야채튀김 60g 우동면. 건더기 스프 10g 게맛살 10g 쑥갓 5g , 유부 50g",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23006",
+     "name": "열무국수",
+     "price": 8500,
+     "desc": "시원한 열무국물에 국수사리면을 추가한 열무국수",
+     "material": "사리면, 열무김치, 열무육수",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12065",
+     "name": "옛날도시락",
+     "price": 6000,
+     "desc": "추억의 옛날 도시락",
+     "material": "계란.무말랭이.고추장멸치조리",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12055",
+     "name": "육개장(호텔컬렉션)",
+     "price": 9500,
+     "desc": "신세계푸드 와 저희 케이알산업(입장휴게소)이 협업하여 만든 제품.\r\n대중적인 메뉴를 추가 하였고 기존 육개장보다 조금 더 매운 맛을 냄",
+     "material": "소고기.고사리.파 무 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "21996",
+     "name": "입장거봉포도돈가스+레몬이드",
+     "price": 12400,
+     "desc": "입장휴게소 대표메뉴 거봉포도돈가스 + 상큼한 레몬에이드 세트 메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "21998",
+     "name": "입장거봉포도돈가스+제로콜라캔",
+     "price": 12100,
+     "desc": "휴게소 대표메뉴 입장거봉포도 돈가스와 제로콜라 세트메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "21997",
+     "name": "입장거봉포도치즈돈가스+레몬에이드",
+     "price": 13400,
+     "desc": "입장휴게소 대표메뉴 입장거봉포도치즈 돈가스에 레몬에이드 세트 메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "21999",
+     "name": "입장거봉포도치즈돈가스+제로콜라캔",
+     "price": 13100,
+     "desc": "입장휴게소 대표메뉴 입장거봉포도치즈돈가스와 제로콜라캔 세트 메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12072",
+     "name": "잔치국수",
+     "price": 7000,
+     "desc": "옛날잔치국수\r\n부드러운 면과 여러 야채가 어울려 누구나 좋아하는 맛",
+     "material": "면.계란지단.당근.파 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7895",
+     "name": "충무김밥",
+     "price": 5500,
+     "desc": "라면만 먹기엔 부족?  전국적으로 유명한 김밥 ~\r\n라면,우동 과 같이~",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12064",
+     "name": "충무김밥",
+     "price": 5500,
+     "desc": "추억의 김밥",
+     "material": "오징어.무말랭이.석박지",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12066",
+     "name": "충무김밥 포장용",
+     "price": 5500,
+     "desc": "식사를 못하시는 고객님을 위한 포장 김밥입니다.",
+     "material": "무말랭이.오징어.석박지 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23000",
+     "name": "치즈돈가스",
+     "price": 12000,
+     "desc": "국내산 돼지고기 등심으로 만든 치즈돈가스",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23001",
+     "name": "치즈돈가스+레몬에이드",
+     "price": 13400,
+     "desc": "국내산 돼지고기 등심으로 만든 치즈돈가스+레몬에이드 세트메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23002",
+     "name": "치즈돈가스+제로콜라캔",
+     "price": 13100,
+     "desc": "국내산 돼지고기 등심으로 만든 치즈돈가스+제로콜라캔 세트메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "4750",
+     "name": "한신김치우동",
+     "price": 7000,
+     "desc": "쫄깃한 우동면과 김치를 넣어 얼큰한 국물이 좋음",
+     "material": "우동면. 볶음김치 120g,사각어묵 50g,배합육수450g,유부5g,쑥갓15g등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23003",
+     "name": "한신비빔우동",
+     "price": 7500,
+     "desc": "우동면에 한신비법양념장을 넣어 깔끔하고 개운한 비빔우동",
+     "material": "우동면,비빔양념장100g,삶은계란 반쪽,오이20g,쑥갓15g등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23005",
+     "name": "한신얼큰우동",
+     "price": 6000,
+     "desc": "우동면에 한신 매운다대기가 들어가 얼큰한 국물 맛의 우동",
+     "material": "우동면, 배합육수450g, 유부5g, 쑥갓15g 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23004",
+     "name": "한신해장냉우동",
+     "price": 7500,
+     "desc": "여름철 별미 냉우동",
+     "material": "우동면, 냉우동육수 450g, 단무지35g 삶은계란 반개 등",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22003",
+     "name": "흑돼지김치찌개+비락식혜",
+     "price": 11700,
+     "desc": "입장휴게소 판매율 제일 높은 김치찌개와 비락식혜 세트 메뉴로\r\n할인금약 1,000원",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
    "seq": 15,
    "total": 20,
    "nextId": "000007",
    "nextName": "안성(서울)휴게소",
-   "nextKm": 32.3,
-   "prevId": "000011",
-   "prevName": "입장거봉포도(서울)휴게소",
+   "nextKm": 15.8,
+   "prevId": "000015",
+   "prevName": "천안삼거리(서울)휴게소",
    "prevKm": 17.3
   },
   {
@@ -6797,12 +6797,51 @@
    ],
    "seq": 16,
    "total": 20,
+   "nextId": "000450",
+   "nextName": "오산졸음쉼터(서울)",
+   "nextKm": 9.3,
+   "prevId": "000011",
+   "prevName": "입장거봉포도(서울)휴게소",
+   "prevKm": 15.8
+  },
+  {
+   "id": "000450",
+   "name": "오산졸음쉼터(서울)",
+   "route": "경부선",
+   "unitCode": "",
+   "routeNo": "0010",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 37.15299,
+   "lng": 127.09032,
+   "addr": "경기 오산시 부산동 442-5 경부고속도로 오산",
+   "tel": "0310000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 17,
+   "total": 20,
    "nextId": "000003",
    "nextName": "죽전(서울)휴게소",
-   "nextKm": 28.6,
-   "prevId": "000015",
-   "prevName": "천안삼거리(서울)휴게소",
-   "prevKm": 32.3
+   "nextKm": 20.0,
+   "prevId": "000007",
+   "prevName": "안성(서울)휴게소",
+   "prevKm": 9.3
   },
   {
    "id": "000003",
@@ -7054,52 +7093,13 @@
      "prem": false
     }
    ],
-   "seq": 17,
-   "total": 20,
-   "nextId": "000450",
-   "nextName": "오산졸음쉼터(서울)",
-   "nextKm": 20.0,
-   "prevId": "000007",
-   "prevName": "안성(서울)휴게소",
-   "prevKm": 28.6
-  },
-  {
-   "id": "000450",
-   "name": "오산졸음쉼터(서울)",
-   "route": "경부선",
-   "unitCode": "",
-   "routeNo": "0010",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 37.15299,
-   "lng": 127.09032,
-   "addr": "경기 오산시 부산동 442-5 경부고속도로 오산",
-   "tel": "0310000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
    "seq": 18,
    "total": 20,
    "nextId": "000432",
    "nextName": "서서울(서울)졸음쉼터",
-   "nextKm": 27.1,
-   "prevId": "000003",
-   "prevName": "죽전(서울)휴게소",
+   "nextKm": 23.1,
+   "prevId": "000450",
+   "prevName": "오산졸음쉼터(서울)",
    "prevKm": 20.0
   },
   {
@@ -7134,9 +7134,9 @@
    "menus": [],
    "seq": 19,
    "total": 20,
-   "prevId": "000450",
-   "prevName": "오산졸음쉼터(서울)",
-   "prevKm": 27.1
+   "prevId": "000003",
+   "prevName": "죽전(서울)휴게소",
+   "prevKm": 23.1
   },
   {
    "id": "000433",
@@ -7767,51 +7767,12 @@
    ],
    "seq": 1,
    "total": 27,
-   "nextId": "000562",
-   "nextName": "오산(부산)졸음쉼터",
-   "nextKm": 34.6,
+   "nextId": "000370",
+   "nextName": "서울하이패스센터쉼터",
+   "nextKm": 11.1,
    "prevId": "000433",
    "prevName": "서서울(목포)졸음쉼터",
    "prevKm": 24.8
-  },
-  {
-   "id": "000562",
-   "name": "오산(부산)졸음쉼터",
-   "route": "경부선",
-   "unitCode": "",
-   "routeNo": "0010",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "하행",
-   "lat": 37.149938,
-   "lng": 127.077462,
-   "addr": "경기도 오산시 동부대로568번길 57(오산",
-   "tel": "0310000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 2,
-   "total": 27,
-   "nextId": "000370",
-   "nextName": "서울하이패스센터쉼터",
-   "nextKm": 24.8,
-   "prevId": "000001",
-   "prevName": "서울만남(부산)휴게소",
-   "prevKm": 34.6
   },
   {
    "id": "000370",
@@ -7843,425 +7804,14 @@
    "facilities": {},
    "brands": [],
    "menus": [],
-   "seq": 3,
-   "total": 27,
-   "nextId": "000005",
-   "nextName": "기흥(부산)휴게소",
-   "nextKm": 15.3,
-   "prevId": "000562",
-   "prevName": "오산(부산)졸음쉼터",
-   "prevKm": 24.8
-  },
-  {
-   "id": "000005",
-   "name": "기흥(부산)휴게소",
-   "route": "경부선",
-   "unitCode": "003",
-   "routeNo": "0010",
-   "geocoded": false,
-   "kind": "rest",
-   "dir": "하행",
-   "lat": 37.23509,
-   "lng": 127.10519,
-   "addr": "경기 용인시 기흥구 공세로 173 기흥",
-   "tel": "0312865001",
-   "parking": {
-    "car": 370,
-    "truck": 74,
-    "disabled": 454
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": true
-   },
-   "facilities": {
-    "수유실": {
-     "time": "08:00~20:00",
-     "desc": "기흥휴게소 내부매장에 신규 설치하였습니다"
-    },
-    "세차장": {
-     "time": "08:00~20:00",
-     "desc": ""
-    },
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": ""
-    },
-    "열린매장(간식)": {
-     "time": "08:00~20:00",
-     "desc": "핫바류 간식 코너"
-    }
-   },
-   "brands": [
-    "던킨도너츠",
-    "파리바게뜨",
-    "파스쿠찌"
-   ],
-   "menus": [
-    {
-     "seq": "18867",
-     "name": "북창동순두부",
-     "price": 11000,
-     "desc": "북창동순두부의 기본적인 대표메뉴 얼큰함과 부드러운 순두부의 조화",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "4993",
-     "name": "수제등심돈가스",
-     "price": 12000,
-     "desc": "코바코 수제등심돈가스 입니다",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "6322",
-     "name": "실속흑돼지돈가스",
-     "price": 10000,
-     "desc": "코바코 전문식당 실속 돈가스 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "4994",
-     "name": "유부우동",
-     "price": 7500,
-     "desc": "코바코 유부우동 입니다",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "16187",
-     "name": "ex-라면",
-     "price": 4000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "18875",
-     "name": "갈비맛양념구이",
-     "price": 9900,
-     "desc": "갈비맛양념구이 따로 시켜먹을 수 있는 단품메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "18873",
-     "name": "갈비맛양념구이순두부정식",
-     "price": 19500,
-     "desc": "기본적인 대표메뉴 북창동순두부와 갈비맛양념구이를 같이 먹는 세트메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "18874",
-     "name": "고추장불고기(단품)",
-     "price": 8900,
-     "desc": "고추장불고기 따로 시켜먹을 수 있는 단품메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "18872",
-     "name": "고추장불고기순두부정식",
-     "price": 18000,
-     "desc": "기본적인 대표메뉴 북창동순두부와 고추장불고기를 같이 먹는 세트메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6323",
-     "name": "김치냄비우동",
-     "price": 9000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6329",
-     "name": "꼬치어묵우동",
-     "price": 8000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6321",
-     "name": "돈가스우동정식",
-     "price": 13000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6325",
-     "name": "돌솥알밥",
-     "price": 9000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23086",
-     "name": "돼지김치찌개",
-     "price": 9000,
-     "desc": "얼큰하고 든든하게 식사를 채워 줄 김치찌개",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23087",
-     "name": "뚝배기비빔밥",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23085",
-     "name": "명품한우국밥",
-     "price": 12000,
-     "desc": "진한 한우고기와 국물의 전통국밥",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23090",
-     "name": "불고기비빔밥",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "18865",
-     "name": "사골우거지국밥",
-     "price": 7000,
-     "desc": "착한가격 실속상품으로써 사골이 들어가 깊은맛이 느껴지는 우거지국밥",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23088",
-     "name": "새싹비빔밥",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6324",
-     "name": "새우볶음밥",
-     "price": 9000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6319",
-     "name": "생선가스",
-     "price": 12000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "18866",
-     "name": "소고기미역국",
-     "price": 7000,
-     "desc": "착한가격 실속상품으로써 소고기가 들어간 미역국",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "16188",
-     "name": "실속우동",
-     "price": 5500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6328",
-     "name": "알밥우동정식",
-     "price": 12000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23091",
-     "name": "어묵김치냄비우동",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "23089",
-     "name": "열무비빔밥",
-     "price": 9500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6327",
-     "name": "왕돈가스",
-     "price": 13000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6320",
-     "name": "왕새우튀김우동",
-     "price": 8500,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "16186",
-     "name": "추억의라면",
-     "price": 3500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6318",
-     "name": "치즈돈가스",
-     "price": 12000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6326",
-     "name": "표고버섯덮밥",
-     "price": 10000,
-     "desc": "코바코 전문식당 메뉴입니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12460",
-     "name": "풍전육개장",
-     "price": 13000,
-     "desc": "인천 지역 맛집 풍전식당을 휴게소에서 똑같은 재료와 맛으로 판매하고 있습니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "12461",
-     "name": "풍전해장국",
-     "price": 13000,
-     "desc": "인천 지역 맛집 풍전식당을 휴게소에서 똑같은 재료와 맛으로 판매하고 있습니다.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "18870",
-     "name": "해물순두부",
-     "price": 12000,
-     "desc": "얼큰함과 부드러운 순두부에 해물을 넣어 먹는 재미를 살린 메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "18868",
-     "name": "햄치즈순두부",
-     "price": 11000,
-     "desc": "얼큰함과 부드러운 순두부에 햄과 치즈를 넣어 식감과 고소함을 추가한 메뉴",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 4,
+   "seq": 2,
    "total": 27,
    "nextId": "000408",
    "nextName": "기흥복합휴게소",
-   "nextKm": 0.0,
-   "prevId": "000370",
-   "prevName": "서울하이패스센터쉼터",
-   "prevKm": 15.3
+   "nextKm": 15.3,
+   "prevId": "000001",
+   "prevName": "서울만남(부산)휴게소",
+   "prevKm": 11.1
   },
   {
    "id": "000408",
@@ -8764,14 +8314,464 @@
      "prem": false
     }
    ],
+   "seq": 3,
+   "total": 27,
+   "nextId": "000005",
+   "nextName": "기흥(부산)휴게소",
+   "nextKm": 0.0,
+   "prevId": "000370",
+   "prevName": "서울하이패스센터쉼터",
+   "prevKm": 15.3
+  },
+  {
+   "id": "000005",
+   "name": "기흥(부산)휴게소",
+   "route": "경부선",
+   "unitCode": "003",
+   "routeNo": "0010",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "하행",
+   "lat": 37.23509,
+   "lng": 127.10519,
+   "addr": "경기 용인시 기흥구 공세로 173 기흥",
+   "tel": "0312865001",
+   "parking": {
+    "car": 370,
+    "truck": 74,
+    "disabled": 454
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": true
+   },
+   "facilities": {
+    "수유실": {
+     "time": "08:00~20:00",
+     "desc": "기흥휴게소 내부매장에 신규 설치하였습니다"
+    },
+    "세차장": {
+     "time": "08:00~20:00",
+     "desc": ""
+    },
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": ""
+    },
+    "열린매장(간식)": {
+     "time": "08:00~20:00",
+     "desc": "핫바류 간식 코너"
+    }
+   },
+   "brands": [
+    "던킨도너츠",
+    "파리바게뜨",
+    "파스쿠찌"
+   ],
+   "menus": [
+    {
+     "seq": "18867",
+     "name": "북창동순두부",
+     "price": 11000,
+     "desc": "북창동순두부의 기본적인 대표메뉴 얼큰함과 부드러운 순두부의 조화",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "4993",
+     "name": "수제등심돈가스",
+     "price": 12000,
+     "desc": "코바코 수제등심돈가스 입니다",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "6322",
+     "name": "실속흑돼지돈가스",
+     "price": 10000,
+     "desc": "코바코 전문식당 실속 돈가스 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "4994",
+     "name": "유부우동",
+     "price": 7500,
+     "desc": "코바코 유부우동 입니다",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "16187",
+     "name": "ex-라면",
+     "price": 4000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "18875",
+     "name": "갈비맛양념구이",
+     "price": 9900,
+     "desc": "갈비맛양념구이 따로 시켜먹을 수 있는 단품메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "18873",
+     "name": "갈비맛양념구이순두부정식",
+     "price": 19500,
+     "desc": "기본적인 대표메뉴 북창동순두부와 갈비맛양념구이를 같이 먹는 세트메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "18874",
+     "name": "고추장불고기(단품)",
+     "price": 8900,
+     "desc": "고추장불고기 따로 시켜먹을 수 있는 단품메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "18872",
+     "name": "고추장불고기순두부정식",
+     "price": 18000,
+     "desc": "기본적인 대표메뉴 북창동순두부와 고추장불고기를 같이 먹는 세트메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6323",
+     "name": "김치냄비우동",
+     "price": 9000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6329",
+     "name": "꼬치어묵우동",
+     "price": 8000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6321",
+     "name": "돈가스우동정식",
+     "price": 13000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6325",
+     "name": "돌솥알밥",
+     "price": 9000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23086",
+     "name": "돼지김치찌개",
+     "price": 9000,
+     "desc": "얼큰하고 든든하게 식사를 채워 줄 김치찌개",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23087",
+     "name": "뚝배기비빔밥",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23085",
+     "name": "명품한우국밥",
+     "price": 12000,
+     "desc": "진한 한우고기와 국물의 전통국밥",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23090",
+     "name": "불고기비빔밥",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "18865",
+     "name": "사골우거지국밥",
+     "price": 7000,
+     "desc": "착한가격 실속상품으로써 사골이 들어가 깊은맛이 느껴지는 우거지국밥",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23088",
+     "name": "새싹비빔밥",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6324",
+     "name": "새우볶음밥",
+     "price": 9000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6319",
+     "name": "생선가스",
+     "price": 12000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "18866",
+     "name": "소고기미역국",
+     "price": 7000,
+     "desc": "착한가격 실속상품으로써 소고기가 들어간 미역국",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "16188",
+     "name": "실속우동",
+     "price": 5500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6328",
+     "name": "알밥우동정식",
+     "price": 12000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23091",
+     "name": "어묵김치냄비우동",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "23089",
+     "name": "열무비빔밥",
+     "price": 9500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6327",
+     "name": "왕돈가스",
+     "price": 13000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6320",
+     "name": "왕새우튀김우동",
+     "price": 8500,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "16186",
+     "name": "추억의라면",
+     "price": 3500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6318",
+     "name": "치즈돈가스",
+     "price": 12000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6326",
+     "name": "표고버섯덮밥",
+     "price": 10000,
+     "desc": "코바코 전문식당 메뉴입니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12460",
+     "name": "풍전육개장",
+     "price": 13000,
+     "desc": "인천 지역 맛집 풍전식당을 휴게소에서 똑같은 재료와 맛으로 판매하고 있습니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "12461",
+     "name": "풍전해장국",
+     "price": 13000,
+     "desc": "인천 지역 맛집 풍전식당을 휴게소에서 똑같은 재료와 맛으로 판매하고 있습니다.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "18870",
+     "name": "해물순두부",
+     "price": 12000,
+     "desc": "얼큰함과 부드러운 순두부에 해물을 넣어 먹는 재미를 살린 메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "18868",
+     "name": "햄치즈순두부",
+     "price": 11000,
+     "desc": "얼큰함과 부드러운 순두부에 햄과 치즈를 넣어 식감과 고소함을 추가한 메뉴",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
+   "seq": 4,
+   "total": 27,
+   "nextId": "000562",
+   "nextName": "오산(부산)졸음쉼터",
+   "nextKm": 9.8,
+   "prevId": "000408",
+   "prevName": "기흥복합휴게소",
+   "prevKm": 0.0
+  },
+  {
+   "id": "000562",
+   "name": "오산(부산)졸음쉼터",
+   "route": "경부선",
+   "unitCode": "",
+   "routeNo": "0010",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "하행",
+   "lat": 37.149938,
+   "lng": 127.077462,
+   "addr": "경기도 오산시 동부대로568번길 57(오산",
+   "tel": "0310000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
    "seq": 5,
    "total": 27,
    "nextId": "000009",
    "nextName": "안성(부산)휴게소",
-   "nextKm": 24.9,
+   "nextKm": 16.3,
    "prevId": "000005",
    "prevName": "기흥(부산)휴게소",
-   "prevKm": 0.0
+   "prevKm": 9.8
   },
   {
    "id": "000009",
@@ -9117,9 +9117,9 @@
    "nextId": "000535",
    "nextName": "연곡(부산)졸음쉼터",
    "nextKm": 15.1,
-   "prevId": "000408",
-   "prevName": "기흥복합휴게소",
-   "prevKm": 24.9
+   "prevId": "000562",
+   "prevName": "오산(부산)졸음쉼터",
+   "prevKm": 16.3
   },
   {
    "id": "000535",
@@ -10628,51 +10628,12 @@
    ],
    "seq": 10,
    "total": 27,
-   "nextId": "000571",
-   "nextName": "신탄진(부산)졸음쉼터",
-   "nextKm": 26.4,
+   "nextId": "000026",
+   "nextName": "죽암(부산)휴게소",
+   "nextKm": 19.6,
    "prevId": "000017",
    "prevName": "천안호두(부산)휴게소",
    "prevKm": 12.5
-  },
-  {
-   "id": "000571",
-   "name": "신탄진(부산)졸음쉼터",
-   "route": "경부선",
-   "unitCode": "",
-   "routeNo": "0010",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "하행",
-   "lat": 36.423877,
-   "lng": 127.424261,
-   "addr": "대전 대덕구 상서동 산 66-11 경부노선 신탄진",
-   "tel": "0420000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 11,
-   "total": 27,
-   "nextId": "000026",
-   "nextName": "죽암(부산)휴게소",
-   "nextKm": 7.0,
-   "prevId": "000021",
-   "prevName": "옥산(부산)휴게소",
-   "prevKm": 26.4
   },
   {
    "id": "000026",
@@ -11070,13 +11031,52 @@
      "prem": false
     }
    ],
+   "seq": 11,
+   "total": 27,
+   "nextId": "000571",
+   "nextName": "신탄진(부산)졸음쉼터",
+   "nextKm": 7.0,
+   "prevId": "000021",
+   "prevName": "옥산(부산)휴게소",
+   "prevKm": 19.6
+  },
+  {
+   "id": "000571",
+   "name": "신탄진(부산)졸음쉼터",
+   "route": "경부선",
+   "unitCode": "",
+   "routeNo": "0010",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "하행",
+   "lat": 36.423877,
+   "lng": 127.424261,
+   "addr": "대전 대덕구 상서동 산 66-11 경부노선 신탄진",
+   "tel": "0420000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
    "seq": 12,
    "total": 27,
    "nextId": "000404",
    "nextName": "옥천만남휴게소",
-   "nextKm": 23.5,
-   "prevId": "000571",
-   "prevName": "신탄진(부산)졸음쉼터",
+   "nextKm": 18.3,
+   "prevId": "000026",
+   "prevName": "죽암(부산)휴게소",
    "prevKm": 7.0
   },
   {
@@ -11139,9 +11139,9 @@
    "nextId": "000030",
    "nextName": "옥천(부산)휴게소",
    "nextKm": 2.5,
-   "prevId": "000026",
-   "prevName": "죽암(부산)휴게소",
-   "prevKm": 23.5
+   "prevId": "000571",
+   "prevName": "신탄진(부산)졸음쉼터",
+   "prevKm": 18.3
   },
   {
    "id": "000030",
@@ -13625,292 +13625,12 @@
    ],
    "seq": 22,
    "total": 27,
-   "nextId": "000372",
-   "nextName": "통도사(부산)휴게소",
-   "nextKm": 48.6,
+   "nextId": "000054",
+   "nextName": "건천(부산)휴게소",
+   "nextKm": 22.7,
    "prevId": "000453",
    "prevName": "검단졸음쉼터(부산)",
    "prevKm": 24.5
-  },
-  {
-   "id": "000372",
-   "name": "통도사(부산)휴게소",
-   "route": "경부선",
-   "unitCode": "200",
-   "routeNo": "0010",
-   "geocoded": false,
-   "kind": "rest",
-   "dir": "하행",
-   "lat": 35.488682,
-   "lng": 129.091545,
-   "addr": "경남 양산시 하북면 순지리(경부고속도로) 31-1",
-   "tel": "0553836145",
-   "parking": {
-    "car": 207,
-    "truck": 30,
-    "disabled": 6
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": true,
-    "atm": true
-   },
-   "facilities": {
-    "수유실": {
-     "time": "06:00~21:00",
-     "desc": ""
-    },
-    "쉼터": {
-     "time": "00:00~24:00",
-     "desc": ""
-    },
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": ""
-    },
-    "편의점": {
-     "time": "00:00~24:00",
-     "desc": ""
-    }
-   },
-   "brands": [
-    "달콤커피",
-    "탐앤탐스"
-   ],
-   "menus": [
-    {
-     "seq": "753",
-     "name": "1등급 한우국밥",
-     "price": 11500,
-     "desc": "공깃밥과 김치, 어묵볶음, 콩나물무침과 함께 제공됩니다.",
-     "material": "원재료명: 소고기, 무, 콩나물, 대파, 간마늘, 후추, 소금, 국간장, 고춧가루",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14386",
-     "name": "냉메밀면",
-     "price": 8500,
-     "desc": "통도사(부산)휴게소의 여름 한정 판매 메뉴.\r\n더운 여름날, 드시기 좋은 차가운 메밀면입니다.",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "7147",
-     "name": "산채비빔밥",
-     "price": 11500,
-     "desc": ".",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "2381",
-     "name": "통등심돈가스",
-     "price": 12000,
-     "desc": "밥과 양배추, 베이비순, 피큰, 단무지, 감자튀김, 방울토마토, 스프 함께 제공",
-     "material": "통등심돈가스, 돈가스소스, 쌀, 야채샐러드, 피클, 스프, 드레싱, 감자튀김",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "21256",
-     "name": "(통도사)엄마랑나랑세트",
-     "price": 16000,
-     "desc": "통도사(부산) 휴게소의 엄마랑 나랑 세트는 치즈돈가스랑 꼬치어묵우동이 함께 제공되는 세트 메뉴입니다.\r\n\r\n- 치즈돈가스 : 밥과 양배추, 피클, 단무지, 감자튀김, 스프와 함께 제공\r\n- 꼬치어묵우동 : 단무지, 김치 셀프바 제공",
-     "material": "<원재료명>, - 치즈돈가스, 돈가스소스, 쌀, 양배추, 피클, 스프, 드레싱, 감자튀김, - 우동면, 육수, 꼬치어묵, 탕파",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7845",
-     "name": "23번지 남산왕돈까스",
-     "price": 13500,
-     "desc": "크기도 왕, 맛도 왕!!! 기존의 사이즈에서 up 돈가스입니다.",
-     "material": "원재료명 : 왕돈가스, 돈가스소스, 쌀, 야채샐러드, 피클, 스프, 드레싱, 고추",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2382",
-     "name": "23번지 남산치즈돈까스",
-     "price": 14000,
-     "desc": "밥과 양배추,피클,고추,스프와 함께 제공",
-     "material": "치즈돈가스, 돈가스소스, 쌀, 양배추, 스프, 드레싱, 고추, 피클",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2386",
-     "name": "ex-라면",
-     "price": 4000,
-     "desc": "합리적 가격에 먹을만한 휴게소 라면\r\n\r\n김치, 단무지 셀프바 제공",
-     "material": "원재료명 : 라면, 건더기스프(콩단백, 맛살, 표고버섯, 편마늘, 양배추, 다시마, 홍고추링), 파, 계란",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "803",
-     "name": "꼬치어묵우동",
-     "price": 7000,
-     "desc": "단무지, 김치 셀프바 제공",
-     "material": "원재료명: 우동면, 육수, 꼬치어묵, 탕파료명: 우동면, 육수, 꼬치어묵, 탕파",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2384",
-     "name": "떡만두라면",
-     "price": 6000,
-     "desc": "단무지, 김치 셀프바 제공",
-     "material": "원재료명: 라면, 물, 떡",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "21635",
-     "name": "명품오삼덮밥",
-     "price": 12000,
-     "desc": "쫄깃한 국내산 오징어와 고소한 국내산 삼겹살의 맛있는 조합",
-     "material": "원재료명 : 오징어, 삼겹살, 양배주, 대파, 양파, 고추장, 설탕",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "752",
-     "name": "버섯불고기뚝배기",
-     "price": 10500,
-     "desc": "공깃밥과 콩나물 무침, 김치,어묵볶음과 함께 제공됩니다.",
-     "material": "원재료명: 익힌고기, 고기육수, 양파, 당근, 파, 양배추, 팽이버섯, 느타리버섯, 익힌표고",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2385",
-     "name": "부대라면",
-     "price": 5500,
-     "desc": "단무지, 김치 셀프바 제공",
-     "material": "원재료명: 라면, 물, 부대햄, 계란, 탕파",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "806",
-     "name": "새우야채튀김우동",
-     "price": 7500,
-     "desc": "단무지, 김치 셀프바 제공",
-     "material": "원재료명: 우동면, 육수, 튀김블럭, 새우튀김, 탕파",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "8515",
-     "name": "실속된장찌개",
-     "price": 7000,
-     "desc": "통도사휴게소의 실속메뉴 된장찌개 입니다.",
-     "material": "원재료명 : 육수, 된장, 애호박, 땡초, 양파, 팽이버섯, 두부, 탕파",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12420",
-     "name": "실속미역국정식",
-     "price": 7000,
-     "desc": "통도사휴게소의 두번째 실속 메뉴, 미역국정식.",
-     "material": "원재료명 : 육수, 미역, 고기(양지)",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "21771",
-     "name": "실속옛날돈까스",
-     "price": 10000,
-     "desc": "밥과 양배추,피클,고추,감자튀김,스프와 함께 제공",
-     "material": "원재료명 : 돈가스, 돈가스소스, 쌀, 야채샐러드, 감자튀김, 피클, 스프, 드레싱,",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "15828",
-     "name": "실속우동",
-     "price": 5500,
-     "desc": "단무지,김치,셀프바 제공",
-     "material": "원재료명: 우동면, 육수, 탕파",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12413",
-     "name": "얼큰우동돼지국밥",
-     "price": 10500,
-     "desc": "해양산 국밥의 대표메뉴, 얼큰우동돼지국밥!\r\n\r\n얼큰하고 시원한 돼지국밥에 우동사리가 들어있습니다.",
-     "material": "원재료 : 육수, 돼지고기, 양념 3종(양파 다데기, 김치 다데기, 고추 다데기), 우동면",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "804",
-     "name": "유부우동",
-     "price": 6500,
-     "desc": "단무지, 김치 셀프바 제공",
-     "material": "원재료명: 우동면, 육수, 유부, 탕파",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "747",
-     "name": "제주흑돼지김치찌개",
-     "price": 10000,
-     "desc": "공깃밥과 김치, 어묵볶음, 콩나물무침 함께 제공",
-     "material": "원재료명: 돼지고기, 김치, 콩나물, 대파, 양파, 두부, 고춧가루, 고추장, 간마늘, 간양파, 맛술, 새우가루, 다시마가루, 표고버섯가루",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "751",
-     "name": "해물순두부찌개",
-     "price": 10000,
-     "desc": "공깃밥과 김치, 어묵볶음, 콩나물무침 함께 제공",
-     "material": "원재료명: 새우살, 오징어, 호박, 파, 청량고추, 양파, 대파, 팽이버섯, 순두부, 다져진 김치",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 23,
-   "total": 27,
-   "nextId": "000054",
-   "nextName": "건천(부산)휴게소",
-   "nextKm": 38.0,
-   "prevId": "000050",
-   "prevName": "평사(부산)휴게소",
-   "prevKm": 48.6
   },
   {
    "id": "000054",
@@ -14178,53 +13898,14 @@
      "prem": false
     }
    ],
-   "seq": 24,
-   "total": 27,
-   "nextId": "000059",
-   "nextName": "언양(부산)휴게소",
-   "nextKm": 26.2,
-   "prevId": "000372",
-   "prevName": "통도사(부산)휴게소",
-   "prevKm": 38.0
-  },
-  {
-   "id": "000059",
-   "name": "언양(부산)휴게소",
-   "route": "경부선",
-   "unitCode": "088",
-   "routeNo": "0010",
-   "geocoded": false,
-   "kind": "rest",
-   "dir": "하행",
-   "lat": 35.595511,
-   "lng": 129.138917,
-   "addr": "울산광역시 울주군 언양읍 태기리 684-1",
-   "tel": "0522636147",
-   "parking": {
-    "car": 116,
-    "truck": 33,
-    "disabled": 153
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 25,
+   "seq": 23,
    "total": 27,
    "nextId": "000055",
    "nextName": "경주(부산)휴게소",
-   "nextKm": 15.1,
-   "prevId": "000054",
-   "prevName": "건천(부산)휴게소",
-   "prevKm": 26.2
+   "nextKm": 14.0,
+   "prevId": "000050",
+   "prevName": "평사(부산)휴게소",
+   "prevKm": 22.7
   },
   {
    "id": "000055",
@@ -14541,11 +14222,330 @@
      "prem": false
     }
    ],
+   "seq": 24,
+   "total": 27,
+   "nextId": "000059",
+   "nextName": "언양(부산)휴게소",
+   "nextKm": 15.1,
+   "prevId": "000054",
+   "prevName": "건천(부산)휴게소",
+   "prevKm": 14.0
+  },
+  {
+   "id": "000059",
+   "name": "언양(부산)휴게소",
+   "route": "경부선",
+   "unitCode": "088",
+   "routeNo": "0010",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "하행",
+   "lat": 35.595511,
+   "lng": 129.138917,
+   "addr": "울산광역시 울주군 언양읍 태기리 684-1",
+   "tel": "0522636147",
+   "parking": {
+    "car": 116,
+    "truck": 33,
+    "disabled": 153
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 25,
+   "total": 27,
+   "nextId": "000372",
+   "nextName": "통도사(부산)휴게소",
+   "nextKm": 12.6,
+   "prevId": "000055",
+   "prevName": "경주(부산)휴게소",
+   "prevKm": 15.1
+  },
+  {
+   "id": "000372",
+   "name": "통도사(부산)휴게소",
+   "route": "경부선",
+   "unitCode": "200",
+   "routeNo": "0010",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "하행",
+   "lat": 35.488682,
+   "lng": 129.091545,
+   "addr": "경남 양산시 하북면 순지리(경부고속도로) 31-1",
+   "tel": "0553836145",
+   "parking": {
+    "car": 207,
+    "truck": 30,
+    "disabled": 6
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": true,
+    "atm": true
+   },
+   "facilities": {
+    "수유실": {
+     "time": "06:00~21:00",
+     "desc": ""
+    },
+    "쉼터": {
+     "time": "00:00~24:00",
+     "desc": ""
+    },
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": ""
+    },
+    "편의점": {
+     "time": "00:00~24:00",
+     "desc": ""
+    }
+   },
+   "brands": [
+    "달콤커피",
+    "탐앤탐스"
+   ],
+   "menus": [
+    {
+     "seq": "753",
+     "name": "1등급 한우국밥",
+     "price": 11500,
+     "desc": "공깃밥과 김치, 어묵볶음, 콩나물무침과 함께 제공됩니다.",
+     "material": "원재료명: 소고기, 무, 콩나물, 대파, 간마늘, 후추, 소금, 국간장, 고춧가루",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14386",
+     "name": "냉메밀면",
+     "price": 8500,
+     "desc": "통도사(부산)휴게소의 여름 한정 판매 메뉴.\r\n더운 여름날, 드시기 좋은 차가운 메밀면입니다.",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "7147",
+     "name": "산채비빔밥",
+     "price": 11500,
+     "desc": ".",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "2381",
+     "name": "통등심돈가스",
+     "price": 12000,
+     "desc": "밥과 양배추, 베이비순, 피큰, 단무지, 감자튀김, 방울토마토, 스프 함께 제공",
+     "material": "통등심돈가스, 돈가스소스, 쌀, 야채샐러드, 피클, 스프, 드레싱, 감자튀김",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "21256",
+     "name": "(통도사)엄마랑나랑세트",
+     "price": 16000,
+     "desc": "통도사(부산) 휴게소의 엄마랑 나랑 세트는 치즈돈가스랑 꼬치어묵우동이 함께 제공되는 세트 메뉴입니다.\r\n\r\n- 치즈돈가스 : 밥과 양배추, 피클, 단무지, 감자튀김, 스프와 함께 제공\r\n- 꼬치어묵우동 : 단무지, 김치 셀프바 제공",
+     "material": "<원재료명>, - 치즈돈가스, 돈가스소스, 쌀, 양배추, 피클, 스프, 드레싱, 감자튀김, - 우동면, 육수, 꼬치어묵, 탕파",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7845",
+     "name": "23번지 남산왕돈까스",
+     "price": 13500,
+     "desc": "크기도 왕, 맛도 왕!!! 기존의 사이즈에서 up 돈가스입니다.",
+     "material": "원재료명 : 왕돈가스, 돈가스소스, 쌀, 야채샐러드, 피클, 스프, 드레싱, 고추",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2382",
+     "name": "23번지 남산치즈돈까스",
+     "price": 14000,
+     "desc": "밥과 양배추,피클,고추,스프와 함께 제공",
+     "material": "치즈돈가스, 돈가스소스, 쌀, 양배추, 스프, 드레싱, 고추, 피클",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2386",
+     "name": "ex-라면",
+     "price": 4000,
+     "desc": "합리적 가격에 먹을만한 휴게소 라면\r\n\r\n김치, 단무지 셀프바 제공",
+     "material": "원재료명 : 라면, 건더기스프(콩단백, 맛살, 표고버섯, 편마늘, 양배추, 다시마, 홍고추링), 파, 계란",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "803",
+     "name": "꼬치어묵우동",
+     "price": 7000,
+     "desc": "단무지, 김치 셀프바 제공",
+     "material": "원재료명: 우동면, 육수, 꼬치어묵, 탕파료명: 우동면, 육수, 꼬치어묵, 탕파",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2384",
+     "name": "떡만두라면",
+     "price": 6000,
+     "desc": "단무지, 김치 셀프바 제공",
+     "material": "원재료명: 라면, 물, 떡",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "21635",
+     "name": "명품오삼덮밥",
+     "price": 12000,
+     "desc": "쫄깃한 국내산 오징어와 고소한 국내산 삼겹살의 맛있는 조합",
+     "material": "원재료명 : 오징어, 삼겹살, 양배주, 대파, 양파, 고추장, 설탕",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "752",
+     "name": "버섯불고기뚝배기",
+     "price": 10500,
+     "desc": "공깃밥과 콩나물 무침, 김치,어묵볶음과 함께 제공됩니다.",
+     "material": "원재료명: 익힌고기, 고기육수, 양파, 당근, 파, 양배추, 팽이버섯, 느타리버섯, 익힌표고",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2385",
+     "name": "부대라면",
+     "price": 5500,
+     "desc": "단무지, 김치 셀프바 제공",
+     "material": "원재료명: 라면, 물, 부대햄, 계란, 탕파",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "806",
+     "name": "새우야채튀김우동",
+     "price": 7500,
+     "desc": "단무지, 김치 셀프바 제공",
+     "material": "원재료명: 우동면, 육수, 튀김블럭, 새우튀김, 탕파",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "8515",
+     "name": "실속된장찌개",
+     "price": 7000,
+     "desc": "통도사휴게소의 실속메뉴 된장찌개 입니다.",
+     "material": "원재료명 : 육수, 된장, 애호박, 땡초, 양파, 팽이버섯, 두부, 탕파",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12420",
+     "name": "실속미역국정식",
+     "price": 7000,
+     "desc": "통도사휴게소의 두번째 실속 메뉴, 미역국정식.",
+     "material": "원재료명 : 육수, 미역, 고기(양지)",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "21771",
+     "name": "실속옛날돈까스",
+     "price": 10000,
+     "desc": "밥과 양배추,피클,고추,감자튀김,스프와 함께 제공",
+     "material": "원재료명 : 돈가스, 돈가스소스, 쌀, 야채샐러드, 감자튀김, 피클, 스프, 드레싱,",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "15828",
+     "name": "실속우동",
+     "price": 5500,
+     "desc": "단무지,김치,셀프바 제공",
+     "material": "원재료명: 우동면, 육수, 탕파",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12413",
+     "name": "얼큰우동돼지국밥",
+     "price": 10500,
+     "desc": "해양산 국밥의 대표메뉴, 얼큰우동돼지국밥!\r\n\r\n얼큰하고 시원한 돼지국밥에 우동사리가 들어있습니다.",
+     "material": "원재료 : 육수, 돼지고기, 양념 3종(양파 다데기, 김치 다데기, 고추 다데기), 우동면",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "804",
+     "name": "유부우동",
+     "price": 6500,
+     "desc": "단무지, 김치 셀프바 제공",
+     "material": "원재료명: 우동면, 육수, 유부, 탕파",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "747",
+     "name": "제주흑돼지김치찌개",
+     "price": 10000,
+     "desc": "공깃밥과 김치, 어묵볶음, 콩나물무침 함께 제공",
+     "material": "원재료명: 돼지고기, 김치, 콩나물, 대파, 양파, 두부, 고춧가루, 고추장, 간마늘, 간양파, 맛술, 새우가루, 다시마가루, 표고버섯가루",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "751",
+     "name": "해물순두부찌개",
+     "price": 10000,
+     "desc": "공깃밥과 김치, 어묵볶음, 콩나물무침 함께 제공",
+     "material": "원재료명: 새우살, 오징어, 호박, 파, 청량고추, 양파, 대파, 팽이버섯, 순두부, 다져진 김치",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
    "seq": 26,
    "total": 27,
    "prevId": "000059",
    "prevName": "언양(부산)휴게소",
-   "prevKm": 15.1
+   "prevKm": 12.6
   },
   {
    "id": "000567",
@@ -46616,42 +46616,6 @@
    "nextKm": 53.3
   },
   {
-   "id": "000431",
-   "name": "김포졸음쉼터내측",
-   "route": "수도권제1순환선",
-   "unitCode": "",
-   "routeNo": "1000",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 37.615568,
-   "lng": 126.71578,
-   "addr": "경기 김포시 고촌면 김포대로319번길 209-23",
-   "tel": "00000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 0,
-   "total": 15,
-   "nextId": "000430",
-   "nextName": "김포졸음쉼터외측",
-   "nextKm": 0.0
-  },
-  {
    "id": "000430",
    "name": "김포졸음쉼터외측",
    "route": "수도권제1순환선",
@@ -46681,32 +46645,1236 @@
    "facilities": {},
    "brands": [],
    "menus": [],
+   "seq": 0,
+   "total": 15,
+   "nextId": "000431",
+   "nextName": "김포졸음쉼터내측",
+   "nextKm": 0.0
+  },
+  {
+   "id": "000431",
+   "name": "김포졸음쉼터내측",
+   "route": "수도권제1순환선",
+   "unitCode": "",
+   "routeNo": "1000",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 37.615568,
+   "lng": 126.71578,
+   "addr": "경기 김포시 고촌면 김포대로319번길 209-23",
+   "tel": "00000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
    "seq": 1,
    "total": 15,
-   "nextId": "000560",
-   "nextName": "군자행복드림쉼터",
-   "nextKm": 27.3,
-   "prevId": "000431",
-   "prevName": "김포졸음쉼터내측",
+   "nextId": "000469",
+   "nextName": "양주(일산)휴게소",
+   "nextKm": 22.9,
+   "prevId": "000430",
+   "prevName": "김포졸음쉼터외측",
    "prevKm": 0.0
   },
   {
-   "id": "000560",
-   "name": "군자행복드림쉼터",
+   "id": "000469",
+   "name": "양주(일산)휴게소",
    "route": "수도권제1순환선",
    "unitCode": "",
    "routeNo": "1000",
    "geocoded": true,
    "kind": "rest",
    "dir": "상행",
-   "lat": 37.379889,
-   "lng": 126.803225,
-   "addr": "경기도 시흥시 군자로335번길 36-29",
+   "lat": 37.717773,
+   "lng": 126.94124,
+   "addr": "경기 양주시 장흥면 서울외곽순환고속도로 58",
+   "tel": "00000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": true
+   },
+   "facilities": {
+    "수유실": {
+     "time": "00:00~24:00",
+     "desc": "[코로나19로 운영중단]"
+    },
+    "버스환승": {
+     "time": "00:00~24:00",
+     "desc": "외곽순환고속도로(8906, 8109)"
+    },
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": "노틸러스효성ATM (Hipass현금충전가능)"
+    },
+    "기타": {
+     "time": "00:00~24:00",
+     "desc": "하이패스무인충전기, 흡연부스, 전기차충전기"
+    }
+   },
+   "brands": [
+    "기타",
+    "던킨도너츠",
+    "드롭탑(커피전문점)",
+    "맥도날드",
+    "미니스탑"
+   ],
+   "menus": [
+    {
+     "seq": "1523",
+     "name": "소고기국밥",
+     "price": 7000,
+     "desc": "건강에 좋고 맛도 좋고 한식 최고메뉴 \r\n전국 판매 1위 덕평소고기국밥과 동일한 메뉴입니다.",
+     "material": "소고기, 무우 등 한식재료",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "4725",
+     "name": "호두과자",
+     "price": 3000,
+     "desc": "바삭바삭 달콤한 호두과자\r\n식은후에도 바삭합니다",
+     "material": "",
+     "best": true,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "1535",
+     "name": "꼬치어묵우동",
+     "price": 5500,
+     "desc": "휴게소 최고의 인기메뉴 중 하나\r\n어묵과 국물의 조화\r\n기가 막히네요. 일단 한번 드셔보세요~",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "1527",
+     "name": "냉면(비빔,물냉면)",
+     "price": 7000,
+     "desc": "계절메뉴(하절기)로\r\n냉면 냉면 즐겨보아요\r\n시원한 육수와 함께 \r\n더위도 날려버리세요.",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "4726",
+     "name": "소떡소떡",
+     "price": 3500,
+     "desc": "떡과 소세지의 환상적인 만남\r\n이영자도 좋아하는 어마무시한 맛",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "1526",
+     "name": "해물된장찌개",
+     "price": 6500,
+     "desc": "맛도 좋고 건강에도 좋은 \r\n한식 최고의 된장찌개\r\n요리사가 직접 조리한 영양만점\r\n한식메뉴를 즐겨보아요.",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "1528",
+     "name": "해물라면",
+     "price": 5000,
+     "desc": "남녀노소 누구나 좋아하는 얼큰하고 진한 국물\r\n탱글탱글한 면요리\r\n특제 해물라면으로 고고씽",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "1524",
+     "name": "등심돈까스",
+     "price": 8000,
+     "desc": "두툼한 양질의 등심과 \r\n향긋하고 톡쏘는 소스의 환상의 앙상블\r\n최고의 맛을 자랑합니다.",
+     "material": "돼지고기 등심",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "4729",
+     "name": "떡볶이",
+     "price": 3500,
+     "desc": "매콤달콤 그 누구도 피해갈수 없는 맛",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "4724",
+     "name": "설렁탕",
+     "price": 8000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "1525",
+     "name": "오색비빔밥",
+     "price": 7500,
+     "desc": "최고의 맛과 정성이 가득담긴\r\n특별한 날 최적의 공간에서\r\n신선하고 깨끗한 식재료로 만든 \r\n색다른 요리를 맛보세요~~",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "4728",
+     "name": "오징어구이",
+     "price": 5000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "4727",
+     "name": "통감자",
+     "price": 4000,
+     "desc": "통통 포실포실 맛있는 감자",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
+   "seq": 2,
+   "total": 15,
+   "nextId": "000371",
+   "nextName": "구리(일산)휴게소",
+   "nextKm": 20.1,
+   "prevId": "000431",
+   "prevName": "김포졸음쉼터내측",
+   "prevKm": 22.9
+  },
+  {
+   "id": "000371",
+   "name": "구리(일산)휴게소",
+   "route": "수도권제1순환선",
+   "unitCode": "199",
+   "routeNo": "1000",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "상행",
+   "lat": 37.627981,
+   "lng": 127.139087,
+   "addr": "경기 구리시 사노동 170-13 구리고속도로",
+   "tel": "0315293564",
+   "parking": {
+    "car": 111,
+    "truck": 21,
+    "disabled": 8
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": true,
+    "atm": true
+   },
+   "facilities": {
+    "수유실": {
+     "time": "00:00~24:00",
+     "desc": "매장 내부 별도 공간"
+    },
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": "고객화장실(남) 입구 옆"
+    },
+    "편의점": {
+     "time": "00:00~24:00",
+     "desc": "emart24"
+    },
+    "열린매장(간식)": {
+     "time": "08:00~20:00",
+     "desc": "스낵코너"
+    },
+    "기타": {
+     "time": "20:00~06:00",
+     "desc": "라면자판기, 짜장라면자판기,로봇커피 머신"
+    }
+   },
+   "brands": [
+    "달콤커피",
+    "이마트24",
+    "코바코",
+    "탐앤탐스"
+   ],
+   "menus": [
+    {
+     "seq": "19946",
+     "name": "더다믄소고기스지국밥",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "3849",
+     "name": "흑돼지버섯제육볶음",
+     "price": 11000,
+     "desc": "국민점심!얼큰하고 맛있는 제육볶음입니다",
+     "material": "돈육, 대파, 양배추, 당근, 고춧가루, 양파, 장국",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7581",
+     "name": "김치가츠우동(간장맛)",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "7582",
+     "name": "김치가츠우동(사골맛)",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "12688",
+     "name": "덴푸라 우동",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "12689",
+     "name": "덴푸라붓카케 우동(냉우동)",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "12690",
+     "name": "명란앙가케 우동",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "6075",
+     "name": "(실속)유부우동",
+     "price": 5500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14055",
+     "name": "(알뜰간식)고추핫바",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14051",
+     "name": "(알뜰간식)도깨비미니핫도그",
+     "price": 3500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14059",
+     "name": "(알뜰간식)떡볶이",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14207",
+     "name": "(알뜰간식)만쥬리아",
+     "price": 3500,
+     "desc": "달콤한 슈크림과 고소한 빵의 조화로운 맛의 간식",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14054",
+     "name": "(알뜰간식)문어와오징어바",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14057",
+     "name": "(알뜰간식)미니츄러스",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14060",
+     "name": "(알뜰간식)바삭어포",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14052",
+     "name": "(알뜰간식)소떡소떡",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14053",
+     "name": "(알뜰간식)쌀떡꼬치",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22830",
+     "name": "(알뜰간식)쌀호두과자(138g,6ea)",
+     "price": 3500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14050",
+     "name": "(알뜰간식)옛날미니핫도그",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14058",
+     "name": "(알뜰간식)옥수수",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14208",
+     "name": "(알뜰간식)치킨팝콘",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "17726",
+     "name": "(알뜰간식)케네디소시지",
+     "price": 3700,
+     "desc": "맛있는 케네디 소시지를 기존 가격보다 저렴하게 알뜰하게 먹을수 있는 메뉴.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14056",
+     "name": "(알뜰간식)통감자구이",
+     "price": 3700,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14206",
+     "name": "(알뜰간식)호두과자(10입)",
+     "price": 3200,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6521",
+     "name": "ex-라면",
+     "price": 4000,
+     "desc": "맛있는 휴라면",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12686",
+     "name": "김치찜덮밥",
+     "price": 12500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "15206",
+     "name": "닭곰탕",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14210",
+     "name": "돈가스덮밥",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6062",
+     "name": "떡라면",
+     "price": 4500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "19966",
+     "name": "먹골 돼지불고기",
+     "price": 11000,
+     "desc": "제주산 흑돼지와 물좋은 양평산 버섯 그리고 구리시의 특산물 먹골배의 맛있는 조합\r\n맵지도 짜지도 않게 정말 맛있는 돼지불고기...",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "19770",
+     "name": "메밀소바",
+     "price": 8000,
+     "desc": "무더운 날씨에 시원하게 음미할수 있는 냉육수와 모밀면의 만남.\r\n덥고 뜨거운 한여름에 시원하게 먹을 수 있는 특별식.",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7583",
+     "name": "명동칼국수",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7584",
+     "name": "명동칼만두",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7579",
+     "name": "새싹비빔밥",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7578",
+     "name": "설렁탕",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7587",
+     "name": "어린이돈가스",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7576",
+     "name": "얼큰부대찌개",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "13895",
+     "name": "열무국수",
+     "price": 7500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "13989",
+     "name": "열무비빔국수",
+     "price": 7500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "3851",
+     "name": "옛날돈까스",
+     "price": 10000,
+     "desc": "남녀노소 누구나 좋아하는 옛날돈까스!",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6072",
+     "name": "오뎅꼬치우동",
+     "price": 7500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14209",
+     "name": "완도식한우미역국",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "8304",
+     "name": "이로운죽",
+     "price": 8000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "6064",
+     "name": "잔치국수",
+     "price": 6500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "1164",
+     "name": "장터국밥",
+     "price": 7000,
+     "desc": "우거지와 무와 소고기로 끌여낸 국밥",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "21399",
+     "name": "차돌버섯된장찌개",
+     "price": 10000,
+     "desc": "구수한 된장과 버섯 그리고 차돌이 만나 맛좋은 한끼 식사",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "15207",
+     "name": "차돌육개장",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12687",
+     "name": "차슈덮밥",
+     "price": 12500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "1961",
+     "name": "초당해물순두부찌개",
+     "price": 11000,
+     "desc": "멸치와 야채를 우려낸 육수를 이용하여 시원한 맛을 느낄실 수 있으며,\r\n\r\n각종 해물과 순두부가 어우러져 단백하고 칼칼한 맛이 일품인 해물순두부찌개입니다.",
+     "material": "초당순두부 200, 오징어채 15, 바지락살 20, 새우, 양파 20, 호박 20, 대파 10, 육수 300",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7724",
+     "name": "치즈돈가스",
+     "price": 11500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "14211",
+     "name": "콩국수",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12766",
+     "name": "토리텐붓카케 우동(냉우동)",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "20046",
+     "name": "해물순두부찌개",
+     "price": 10000,
+     "desc": "각종 싱싱한 해물과 순두부의 만남.......시원하고 컬컬한 순두부 한그릇 하고 가세요..",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12698",
+     "name": "황태콩나물해장국",
+     "price": 7000,
+     "desc": "황태와 콩나물의 만남. 이둘의 조합으로 시원하고 개운한 맛이 일품인 메뉴.",
+     "material": "황태,콩나물,",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "7577",
+     "name": "흑돼지김치찌개",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22829",
+     "name": "흑임자냉콩국수",
+     "price": 11000,
+     "desc": "흑임자의 찐한고소함과 시원한 육수, 면의 만남으로 조화로운 여름 별미",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
+   "seq": 3,
+   "total": 15,
+   "nextId": "000564",
+   "nextName": "구리남양주행복드림쉼터",
+   "nextKm": 3.9,
+   "prevId": "000469",
+   "prevName": "양주(일산)휴게소",
+   "prevKm": 20.1
+  },
+  {
+   "id": "000564",
+   "name": "구리남양주행복드림쉼터",
+   "route": "수도권제1순환선",
+   "unitCode": "",
+   "routeNo": "1000",
+   "geocoded": true,
+   "kind": "rest",
+   "dir": "상행",
+   "lat": 37.593595,
+   "lng": 127.129792,
+   "addr": "경기도 구리시 서울외곽순환도로 27",
    "tel": "",
    "parking": {
-    "car": 35,
-    "truck": 13,
+    "car": 47,
+    "truck": 0,
     "disabled": 2
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": true,
+    "atm": true
+   },
+   "facilities": {
+    "ATM": {
+     "time": "07:00~20:00",
+     "desc": "현금입출금"
+    },
+    "편의점": {
+     "time": "07:00~20:00",
+     "desc": "CU편의점"
+    },
+    "기타": {
+     "time": "00:00~24:00",
+     "desc": "주유소"
+    }
+   },
+   "brands": [],
+   "menus": [],
+   "seq": 4,
+   "total": 15,
+   "nextId": "000428",
+   "nextName": "김포(외측)졸음쉼터(舊성남구리)",
+   "nextKm": 2.0,
+   "prevId": "000371",
+   "prevName": "구리(일산)휴게소",
+   "prevKm": 3.9
+  },
+  {
+   "id": "000428",
+   "name": "김포(외측)졸음쉼터(舊성남구리)",
+   "route": "수도권제1순환선",
+   "unitCode": "",
+   "routeNo": "1000",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 37.582378,
+   "lng": 127.147386,
+   "addr": "경기 구리시 토평동 서울외곽순환고속도로 27",
+   "tel": "00000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 5,
+   "total": 15,
+   "nextId": "000426",
+   "nextName": "행복드림쉼터",
+   "nextKm": 0.0,
+   "prevId": "000564",
+   "prevName": "구리남양주행복드림쉼터",
+   "prevKm": 2.0
+  },
+  {
+   "id": "000426",
+   "name": "행복드림쉼터",
+   "route": "수도권제1순환선",
+   "unitCode": "",
+   "routeNo": "1000",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 37.582378,
+   "lng": 127.147386,
+   "addr": "경기 구리시 토평동 108-7",
+   "tel": "0000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 6,
+   "total": 15,
+   "nextId": "000336",
+   "nextName": "서하남행복드림쉼터",
+   "nextKm": 7.5,
+   "prevId": "000428",
+   "prevName": "김포(외측)졸음쉼터(舊성남구리)",
+   "prevKm": 0.0
+  },
+  {
+   "id": "000336",
+   "name": "서하남행복드림쉼터",
+   "route": "수도권제1순환선",
+   "unitCode": "181",
+   "routeNo": "1000",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "상행",
+   "lat": 37.525849,
+   "lng": 127.193073,
+   "addr": "경기 하남시 춘궁동 212",
+   "tel": "",
+   "parking": {
+    "car": 58,
+    "truck": 5,
+    "disabled": 2
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": true,
+    "atm": true
+   },
+   "facilities": {
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": "현금입출금"
+    },
+    "편의점": {
+     "time": "00:00~24:00",
+     "desc": "CU편의점"
+    },
+    "기타": {
+     "time": "00:00~24:00",
+     "desc": "던킨도너츠/핫바/우동/커피매장"
+    }
+   },
+   "brands": [],
+   "menus": [
+    {
+     "seq": "10199",
+     "name": "꼬치어묵우동",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "10200",
+     "name": "육개장",
+     "price": 9000,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "10201",
+     "name": "새우볶음밥",
+     "price": 8000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "10202",
+     "name": "일품짜장면",
+     "price": 6000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
+   "seq": 7,
+   "total": 15,
+   "nextId": "000425",
+   "nextName": "김포행복드림쉼터",
+   "nextKm": 7.2,
+   "prevId": "000426",
+   "prevName": "행복드림쉼터",
+   "prevKm": 7.5
+  },
+  {
+   "id": "000425",
+   "name": "김포행복드림쉼터",
+   "route": "수도권제1순환선",
+   "unitCode": "",
+   "routeNo": "1000",
+   "geocoded": true,
+   "kind": "rest",
+   "dir": "상행",
+   "lat": 37.504401,
+   "lng": 127.115639,
+   "addr": "서울 송파구 송파동 185-5",
+   "tel": "",
+   "parking": {
+    "car": 69,
+    "truck": 5,
+    "disabled": 3
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": true,
+    "atm": true
+   },
+   "facilities": {
+    "ATM": {
+     "time": "08:00~20:00",
+     "desc": "현금입출금"
+    },
+    "편의점": {
+     "time": "08:00~20:00",
+     "desc": "CU편의점"
+    }
+   },
+   "brands": [],
+   "menus": [],
+   "seq": 8,
+   "total": 15,
+   "nextId": "000528",
+   "nextName": "성남졸음쉼터",
+   "nextKm": 6.6,
+   "prevId": "000336",
+   "prevName": "서하남행복드림쉼터",
+   "prevKm": 7.2
+  },
+  {
+   "id": "000528",
+   "name": "성남졸음쉼터",
+   "route": "수도권제1순환선",
+   "unitCode": "",
+   "routeNo": "1000",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 37.450339,
+   "lng": 127.146293,
+   "addr": "경기도 성남시 수정구 수진동 39-13",
+   "tel": "00000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 9,
+   "total": 15,
+   "nextId": "000423",
+   "nextName": "청계졸음쉼터(舊성남)",
+   "nextKm": 2.3,
+   "prevId": "000425",
+   "prevName": "김포행복드림쉼터",
+   "prevKm": 6.6
+  },
+  {
+   "id": "000423",
+   "name": "청계졸음쉼터(舊성남)",
+   "route": "수도권제1순환선",
+   "unitCode": "",
+   "routeNo": "1000",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 37.4307,
+   "lng": 127.137,
+   "addr": "경기 성남시 중원구 성남동",
+   "tel": "0000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
+   "menus": [],
+   "seq": 10,
+   "total": 15,
+   "nextId": "000329",
+   "nextName": "의왕(일산)휴게소",
+   "nextKm": 10.9,
+   "prevId": "000528",
+   "prevName": "성남졸음쉼터",
+   "prevKm": 2.3
+  },
+  {
+   "id": "000329",
+   "name": "의왕(일산)휴게소",
+   "route": "수도권제1순환선",
+   "unitCode": "179",
+   "routeNo": "1000",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "상행",
+   "lat": 37.393384,
+   "lng": 127.022718,
+   "addr": "경기 의왕시 청계동 안양판교로 476 의왕(청계)",
+   "tel": "0314217344",
+   "parking": {
+    "car": 45,
+    "truck": 2,
+    "disabled": 49
    },
    "tags": {
     "shower": false,
@@ -46719,20 +47887,150 @@
    },
    "facilities": {
     "편의점": {
-     "time": "00:00~24:00",
-     "desc": "CU편의점(무인으로 운영중)"
+     "time": "07:00~22:00",
+     "desc": ""
     }
    },
    "brands": [],
+   "menus": [
+    {
+     "seq": "5216",
+     "name": "생면식감 라면",
+     "price": 5000,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "5218",
+     "name": "등심돈가스",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "10102",
+     "name": "얼큰육개장",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "5219",
+     "name": "우동",
+     "price": 6000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "5213",
+     "name": "고구마치즈돈가스",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "10108",
+     "name": "만쥬리아",
+     "price": 5000,
+     "desc": "부산오뎅, 만쥬리아",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "10107",
+     "name": "스낵류",
+     "price": 4500,
+     "desc": "핫도그, 소떡, 핫바 등",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "5223",
+     "name": "치즈돈가스",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": true
+    },
+    {
+     "seq": "10104",
+     "name": "튀김만두",
+     "price": 3000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
+   "seq": 11,
+   "total": 15,
+   "nextId": "000424",
+   "nextName": "청계졸음쉼터",
+   "nextKm": 1.4,
+   "prevId": "000423",
+   "prevName": "청계졸음쉼터(舊성남)",
+   "prevKm": 10.9
+  },
+  {
+   "id": "000424",
+   "name": "청계졸음쉼터",
+   "route": "수도권제1순환선",
+   "unitCode": "",
+   "routeNo": "1000",
+   "geocoded": true,
+   "kind": "shelter",
+   "dir": "상행",
+   "lat": 37.384364,
+   "lng": 127.01173,
+   "addr": "경기 의왕시 청계동",
+   "tel": "0000000000",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": false
+   },
+   "facilities": {},
+   "brands": [],
    "menus": [],
-   "seq": 2,
+   "seq": 12,
    "total": 15,
    "nextId": "000530",
    "nextName": "시흥하늘휴게소",
-   "nextKm": 5.2,
-   "prevId": "000430",
-   "prevName": "김포졸음쉼터외측",
-   "prevKm": 27.3
+   "nextKm": 13.2,
+   "prevId": "000329",
+   "prevName": "의왕(일산)휴게소",
+   "prevKm": 1.4
   },
   {
    "id": "000530",
@@ -47779,1280 +49077,31 @@
      "prem": false
     }
    ],
-   "seq": 3,
-   "total": 15,
-   "nextId": "000469",
-   "nextName": "양주(일산)휴게소",
-   "nextKm": 38.4,
-   "prevId": "000560",
-   "prevName": "군자행복드림쉼터",
-   "prevKm": 5.2
-  },
-  {
-   "id": "000469",
-   "name": "양주(일산)휴게소",
-   "route": "수도권제1순환선",
-   "unitCode": "",
-   "routeNo": "1000",
-   "geocoded": true,
-   "kind": "rest",
-   "dir": "상행",
-   "lat": 37.717773,
-   "lng": 126.94124,
-   "addr": "경기 양주시 장흥면 서울외곽순환고속도로 58",
-   "tel": "00000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": true
-   },
-   "facilities": {
-    "수유실": {
-     "time": "00:00~24:00",
-     "desc": "[코로나19로 운영중단]"
-    },
-    "버스환승": {
-     "time": "00:00~24:00",
-     "desc": "외곽순환고속도로(8906, 8109)"
-    },
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": "노틸러스효성ATM (Hipass현금충전가능)"
-    },
-    "기타": {
-     "time": "00:00~24:00",
-     "desc": "하이패스무인충전기, 흡연부스, 전기차충전기"
-    }
-   },
-   "brands": [
-    "기타",
-    "던킨도너츠",
-    "드롭탑(커피전문점)",
-    "맥도날드",
-    "미니스탑"
-   ],
-   "menus": [
-    {
-     "seq": "1523",
-     "name": "소고기국밥",
-     "price": 7000,
-     "desc": "건강에 좋고 맛도 좋고 한식 최고메뉴 \r\n전국 판매 1위 덕평소고기국밥과 동일한 메뉴입니다.",
-     "material": "소고기, 무우 등 한식재료",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "4725",
-     "name": "호두과자",
-     "price": 3000,
-     "desc": "바삭바삭 달콤한 호두과자\r\n식은후에도 바삭합니다",
-     "material": "",
-     "best": true,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "1535",
-     "name": "꼬치어묵우동",
-     "price": 5500,
-     "desc": "휴게소 최고의 인기메뉴 중 하나\r\n어묵과 국물의 조화\r\n기가 막히네요. 일단 한번 드셔보세요~",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "1527",
-     "name": "냉면(비빔,물냉면)",
-     "price": 7000,
-     "desc": "계절메뉴(하절기)로\r\n냉면 냉면 즐겨보아요\r\n시원한 육수와 함께 \r\n더위도 날려버리세요.",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "4726",
-     "name": "소떡소떡",
-     "price": 3500,
-     "desc": "떡과 소세지의 환상적인 만남\r\n이영자도 좋아하는 어마무시한 맛",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "1526",
-     "name": "해물된장찌개",
-     "price": 6500,
-     "desc": "맛도 좋고 건강에도 좋은 \r\n한식 최고의 된장찌개\r\n요리사가 직접 조리한 영양만점\r\n한식메뉴를 즐겨보아요.",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "1528",
-     "name": "해물라면",
-     "price": 5000,
-     "desc": "남녀노소 누구나 좋아하는 얼큰하고 진한 국물\r\n탱글탱글한 면요리\r\n특제 해물라면으로 고고씽",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "1524",
-     "name": "등심돈까스",
-     "price": 8000,
-     "desc": "두툼한 양질의 등심과 \r\n향긋하고 톡쏘는 소스의 환상의 앙상블\r\n최고의 맛을 자랑합니다.",
-     "material": "돼지고기 등심",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "4729",
-     "name": "떡볶이",
-     "price": 3500,
-     "desc": "매콤달콤 그 누구도 피해갈수 없는 맛",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "4724",
-     "name": "설렁탕",
-     "price": 8000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "1525",
-     "name": "오색비빔밥",
-     "price": 7500,
-     "desc": "최고의 맛과 정성이 가득담긴\r\n특별한 날 최적의 공간에서\r\n신선하고 깨끗한 식재료로 만든 \r\n색다른 요리를 맛보세요~~",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "4728",
-     "name": "오징어구이",
-     "price": 5000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "4727",
-     "name": "통감자",
-     "price": 4000,
-     "desc": "통통 포실포실 맛있는 감자",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 4,
-   "total": 15,
-   "nextId": "000424",
-   "nextName": "청계졸음쉼터",
-   "nextKm": 37.6,
-   "prevId": "000530",
-   "prevName": "시흥하늘휴게소",
-   "prevKm": 38.4
-  },
-  {
-   "id": "000424",
-   "name": "청계졸음쉼터",
-   "route": "수도권제1순환선",
-   "unitCode": "",
-   "routeNo": "1000",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 37.384364,
-   "lng": 127.01173,
-   "addr": "경기 의왕시 청계동",
-   "tel": "0000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 5,
-   "total": 15,
-   "nextId": "000329",
-   "nextName": "의왕(일산)휴게소",
-   "nextKm": 1.4,
-   "prevId": "000469",
-   "prevName": "양주(일산)휴게소",
-   "prevKm": 37.6
-  },
-  {
-   "id": "000329",
-   "name": "의왕(일산)휴게소",
-   "route": "수도권제1순환선",
-   "unitCode": "179",
-   "routeNo": "1000",
-   "geocoded": false,
-   "kind": "rest",
-   "dir": "상행",
-   "lat": 37.393384,
-   "lng": 127.022718,
-   "addr": "경기 의왕시 청계동 안양판교로 476 의왕(청계)",
-   "tel": "0314217344",
-   "parking": {
-    "car": 45,
-    "truck": 2,
-    "disabled": 49
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": true,
-    "atm": false
-   },
-   "facilities": {
-    "편의점": {
-     "time": "07:00~22:00",
-     "desc": ""
-    }
-   },
-   "brands": [],
-   "menus": [
-    {
-     "seq": "5216",
-     "name": "생면식감 라면",
-     "price": 5000,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "5218",
-     "name": "등심돈가스",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "10102",
-     "name": "얼큰육개장",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "5219",
-     "name": "우동",
-     "price": 6000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "5213",
-     "name": "고구마치즈돈가스",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "10108",
-     "name": "만쥬리아",
-     "price": 5000,
-     "desc": "부산오뎅, 만쥬리아",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "10107",
-     "name": "스낵류",
-     "price": 4500,
-     "desc": "핫도그, 소떡, 핫바 등",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "5223",
-     "name": "치즈돈가스",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": true
-    },
-    {
-     "seq": "10104",
-     "name": "튀김만두",
-     "price": 3000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 6,
-   "total": 15,
-   "nextId": "000425",
-   "nextName": "김포행복드림쉼터",
-   "nextKm": 14.8,
-   "prevId": "000424",
-   "prevName": "청계졸음쉼터",
-   "prevKm": 1.4
-  },
-  {
-   "id": "000425",
-   "name": "김포행복드림쉼터",
-   "route": "수도권제1순환선",
-   "unitCode": "",
-   "routeNo": "1000",
-   "geocoded": true,
-   "kind": "rest",
-   "dir": "상행",
-   "lat": 37.504401,
-   "lng": 127.115639,
-   "addr": "서울 송파구 송파동 185-5",
-   "tel": "",
-   "parking": {
-    "car": 69,
-    "truck": 5,
-    "disabled": 3
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": true,
-    "atm": true
-   },
-   "facilities": {
-    "ATM": {
-     "time": "08:00~20:00",
-     "desc": "현금입출금"
-    },
-    "편의점": {
-     "time": "08:00~20:00",
-     "desc": "CU편의점"
-    }
-   },
-   "brands": [],
-   "menus": [],
-   "seq": 7,
-   "total": 15,
-   "nextId": "000564",
-   "nextName": "구리남양주행복드림쉼터",
-   "nextKm": 10.0,
-   "prevId": "000329",
-   "prevName": "의왕(일산)휴게소",
-   "prevKm": 14.8
-  },
-  {
-   "id": "000564",
-   "name": "구리남양주행복드림쉼터",
-   "route": "수도권제1순환선",
-   "unitCode": "",
-   "routeNo": "1000",
-   "geocoded": true,
-   "kind": "rest",
-   "dir": "상행",
-   "lat": 37.593595,
-   "lng": 127.129792,
-   "addr": "경기도 구리시 서울외곽순환도로 27",
-   "tel": "",
-   "parking": {
-    "car": 47,
-    "truck": 0,
-    "disabled": 2
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": true,
-    "atm": true
-   },
-   "facilities": {
-    "ATM": {
-     "time": "07:00~20:00",
-     "desc": "현금입출금"
-    },
-    "편의점": {
-     "time": "07:00~20:00",
-     "desc": "CU편의점"
-    },
-    "기타": {
-     "time": "00:00~24:00",
-     "desc": "주유소"
-    }
-   },
-   "brands": [],
-   "menus": [],
-   "seq": 8,
-   "total": 15,
-   "nextId": "000423",
-   "nextName": "청계졸음쉼터(舊성남)",
-   "nextKm": 18.1,
-   "prevId": "000425",
-   "prevName": "김포행복드림쉼터",
-   "prevKm": 10.0
-  },
-  {
-   "id": "000423",
-   "name": "청계졸음쉼터(舊성남)",
-   "route": "수도권제1순환선",
-   "unitCode": "",
-   "routeNo": "1000",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 37.4307,
-   "lng": 127.137,
-   "addr": "경기 성남시 중원구 성남동",
-   "tel": "0000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 9,
-   "total": 15,
-   "nextId": "000371",
-   "nextName": "구리(일산)휴게소",
-   "nextKm": 21.9,
-   "prevId": "000564",
-   "prevName": "구리남양주행복드림쉼터",
-   "prevKm": 18.1
-  },
-  {
-   "id": "000371",
-   "name": "구리(일산)휴게소",
-   "route": "수도권제1순환선",
-   "unitCode": "199",
-   "routeNo": "1000",
-   "geocoded": false,
-   "kind": "rest",
-   "dir": "상행",
-   "lat": 37.627981,
-   "lng": 127.139087,
-   "addr": "경기 구리시 사노동 170-13 구리고속도로",
-   "tel": "0315293564",
-   "parking": {
-    "car": 111,
-    "truck": 21,
-    "disabled": 8
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": true,
-    "atm": true
-   },
-   "facilities": {
-    "수유실": {
-     "time": "00:00~24:00",
-     "desc": "매장 내부 별도 공간"
-    },
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": "고객화장실(남) 입구 옆"
-    },
-    "편의점": {
-     "time": "00:00~24:00",
-     "desc": "emart24"
-    },
-    "열린매장(간식)": {
-     "time": "08:00~20:00",
-     "desc": "스낵코너"
-    },
-    "기타": {
-     "time": "20:00~06:00",
-     "desc": "라면자판기, 짜장라면자판기,로봇커피 머신"
-    }
-   },
-   "brands": [
-    "달콤커피",
-    "이마트24",
-    "코바코",
-    "탐앤탐스"
-   ],
-   "menus": [
-    {
-     "seq": "19946",
-     "name": "더다믄소고기스지국밥",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "3849",
-     "name": "흑돼지버섯제육볶음",
-     "price": 11000,
-     "desc": "국민점심!얼큰하고 맛있는 제육볶음입니다",
-     "material": "돈육, 대파, 양배추, 당근, 고춧가루, 양파, 장국",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7581",
-     "name": "김치가츠우동(간장맛)",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "7582",
-     "name": "김치가츠우동(사골맛)",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "12688",
-     "name": "덴푸라 우동",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "12689",
-     "name": "덴푸라붓카케 우동(냉우동)",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "12690",
-     "name": "명란앙가케 우동",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "6075",
-     "name": "(실속)유부우동",
-     "price": 5500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14055",
-     "name": "(알뜰간식)고추핫바",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14051",
-     "name": "(알뜰간식)도깨비미니핫도그",
-     "price": 3500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14059",
-     "name": "(알뜰간식)떡볶이",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14207",
-     "name": "(알뜰간식)만쥬리아",
-     "price": 3500,
-     "desc": "달콤한 슈크림과 고소한 빵의 조화로운 맛의 간식",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14054",
-     "name": "(알뜰간식)문어와오징어바",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14057",
-     "name": "(알뜰간식)미니츄러스",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14060",
-     "name": "(알뜰간식)바삭어포",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14052",
-     "name": "(알뜰간식)소떡소떡",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14053",
-     "name": "(알뜰간식)쌀떡꼬치",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22830",
-     "name": "(알뜰간식)쌀호두과자(138g,6ea)",
-     "price": 3500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14050",
-     "name": "(알뜰간식)옛날미니핫도그",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14058",
-     "name": "(알뜰간식)옥수수",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14208",
-     "name": "(알뜰간식)치킨팝콘",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "17726",
-     "name": "(알뜰간식)케네디소시지",
-     "price": 3700,
-     "desc": "맛있는 케네디 소시지를 기존 가격보다 저렴하게 알뜰하게 먹을수 있는 메뉴.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14056",
-     "name": "(알뜰간식)통감자구이",
-     "price": 3700,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14206",
-     "name": "(알뜰간식)호두과자(10입)",
-     "price": 3200,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6521",
-     "name": "ex-라면",
-     "price": 4000,
-     "desc": "맛있는 휴라면",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12686",
-     "name": "김치찜덮밥",
-     "price": 12500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "15206",
-     "name": "닭곰탕",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14210",
-     "name": "돈가스덮밥",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6062",
-     "name": "떡라면",
-     "price": 4500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "19966",
-     "name": "먹골 돼지불고기",
-     "price": 11000,
-     "desc": "제주산 흑돼지와 물좋은 양평산 버섯 그리고 구리시의 특산물 먹골배의 맛있는 조합\r\n맵지도 짜지도 않게 정말 맛있는 돼지불고기...",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "19770",
-     "name": "메밀소바",
-     "price": 8000,
-     "desc": "무더운 날씨에 시원하게 음미할수 있는 냉육수와 모밀면의 만남.\r\n덥고 뜨거운 한여름에 시원하게 먹을 수 있는 특별식.",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7583",
-     "name": "명동칼국수",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7584",
-     "name": "명동칼만두",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7579",
-     "name": "새싹비빔밥",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7578",
-     "name": "설렁탕",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7587",
-     "name": "어린이돈가스",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7576",
-     "name": "얼큰부대찌개",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "13895",
-     "name": "열무국수",
-     "price": 7500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "13989",
-     "name": "열무비빔국수",
-     "price": 7500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "3851",
-     "name": "옛날돈까스",
-     "price": 10000,
-     "desc": "남녀노소 누구나 좋아하는 옛날돈까스!",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6072",
-     "name": "오뎅꼬치우동",
-     "price": 7500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14209",
-     "name": "완도식한우미역국",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "8304",
-     "name": "이로운죽",
-     "price": 8000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "6064",
-     "name": "잔치국수",
-     "price": 6500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "1164",
-     "name": "장터국밥",
-     "price": 7000,
-     "desc": "우거지와 무와 소고기로 끌여낸 국밥",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "21399",
-     "name": "차돌버섯된장찌개",
-     "price": 10000,
-     "desc": "구수한 된장과 버섯 그리고 차돌이 만나 맛좋은 한끼 식사",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "15207",
-     "name": "차돌육개장",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12687",
-     "name": "차슈덮밥",
-     "price": 12500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "1961",
-     "name": "초당해물순두부찌개",
-     "price": 11000,
-     "desc": "멸치와 야채를 우려낸 육수를 이용하여 시원한 맛을 느낄실 수 있으며,\r\n\r\n각종 해물과 순두부가 어우러져 단백하고 칼칼한 맛이 일품인 해물순두부찌개입니다.",
-     "material": "초당순두부 200, 오징어채 15, 바지락살 20, 새우, 양파 20, 호박 20, 대파 10, 육수 300",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7724",
-     "name": "치즈돈가스",
-     "price": 11500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "14211",
-     "name": "콩국수",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12766",
-     "name": "토리텐붓카케 우동(냉우동)",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "20046",
-     "name": "해물순두부찌개",
-     "price": 10000,
-     "desc": "각종 싱싱한 해물과 순두부의 만남.......시원하고 컬컬한 순두부 한그릇 하고 가세요..",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12698",
-     "name": "황태콩나물해장국",
-     "price": 7000,
-     "desc": "황태와 콩나물의 만남. 이둘의 조합으로 시원하고 개운한 맛이 일품인 메뉴.",
-     "material": "황태,콩나물,",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "7577",
-     "name": "흑돼지김치찌개",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22829",
-     "name": "흑임자냉콩국수",
-     "price": 11000,
-     "desc": "흑임자의 찐한고소함과 시원한 육수, 면의 만남으로 조화로운 여름 별미",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 10,
-   "total": 15,
-   "nextId": "000528",
-   "nextName": "성남졸음쉼터",
-   "nextKm": 19.8,
-   "prevId": "000423",
-   "prevName": "청계졸음쉼터(舊성남)",
-   "prevKm": 21.9
-  },
-  {
-   "id": "000528",
-   "name": "성남졸음쉼터",
-   "route": "수도권제1순환선",
-   "unitCode": "",
-   "routeNo": "1000",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 37.450339,
-   "lng": 127.146293,
-   "addr": "경기도 성남시 수정구 수진동 39-13",
-   "tel": "00000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 11,
-   "total": 15,
-   "nextId": "000428",
-   "nextName": "김포(외측)졸음쉼터(舊성남구리)",
-   "nextKm": 14.7,
-   "prevId": "000371",
-   "prevName": "구리(일산)휴게소",
-   "prevKm": 19.8
-  },
-  {
-   "id": "000428",
-   "name": "김포(외측)졸음쉼터(舊성남구리)",
-   "route": "수도권제1순환선",
-   "unitCode": "",
-   "routeNo": "1000",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 37.582378,
-   "lng": 127.147386,
-   "addr": "경기 구리시 토평동 서울외곽순환고속도로 27",
-   "tel": "00000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
-   "seq": 12,
-   "total": 15,
-   "nextId": "000426",
-   "nextName": "행복드림쉼터",
-   "nextKm": 0.0,
-   "prevId": "000528",
-   "prevName": "성남졸음쉼터",
-   "prevKm": 14.7
-  },
-  {
-   "id": "000426",
-   "name": "행복드림쉼터",
-   "route": "수도권제1순환선",
-   "unitCode": "",
-   "routeNo": "1000",
-   "geocoded": true,
-   "kind": "shelter",
-   "dir": "상행",
-   "lat": 37.582378,
-   "lng": 127.147386,
-   "addr": "경기 구리시 토평동 108-7",
-   "tel": "0000000000",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": false
-   },
-   "facilities": {},
-   "brands": [],
-   "menus": [],
    "seq": 13,
    "total": 15,
-   "nextId": "000336",
-   "nextName": "서하남행복드림쉼터",
-   "nextKm": 7.5,
-   "prevId": "000428",
-   "prevName": "김포(외측)졸음쉼터(舊성남구리)",
-   "prevKm": 0.0
+   "nextId": "000560",
+   "nextName": "군자행복드림쉼터",
+   "nextKm": 5.2,
+   "prevId": "000424",
+   "prevName": "청계졸음쉼터",
+   "prevKm": 13.2
   },
   {
-   "id": "000336",
-   "name": "서하남행복드림쉼터",
+   "id": "000560",
+   "name": "군자행복드림쉼터",
    "route": "수도권제1순환선",
-   "unitCode": "181",
+   "unitCode": "",
    "routeNo": "1000",
-   "geocoded": false,
+   "geocoded": true,
    "kind": "rest",
    "dir": "상행",
-   "lat": 37.525849,
-   "lng": 127.193073,
-   "addr": "경기 하남시 춘궁동 212",
+   "lat": 37.379889,
+   "lng": 126.803225,
+   "addr": "경기도 시흥시 군자로335번길 36-29",
    "tel": "",
    "parking": {
-    "car": 58,
-    "truck": 5,
+    "car": 35,
+    "truck": 13,
     "disabled": 2
    },
    "tags": {
@@ -49062,70 +49111,21 @@
     "lounge": false,
     "repair": false,
     "cvs": true,
-    "atm": true
+    "atm": false
    },
    "facilities": {
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": "현금입출금"
-    },
     "편의점": {
      "time": "00:00~24:00",
-     "desc": "CU편의점"
-    },
-    "기타": {
-     "time": "00:00~24:00",
-     "desc": "던킨도너츠/핫바/우동/커피매장"
+     "desc": "CU편의점(무인으로 운영중)"
     }
    },
    "brands": [],
-   "menus": [
-    {
-     "seq": "10199",
-     "name": "꼬치어묵우동",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "10200",
-     "name": "육개장",
-     "price": 9000,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "10201",
-     "name": "새우볶음밥",
-     "price": 8000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "10202",
-     "name": "일품짜장면",
-     "price": 6000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
+   "menus": [],
    "seq": 14,
    "total": 15,
-   "prevId": "000426",
-   "prevName": "행복드림쉼터",
-   "prevKm": 7.5
+   "prevId": "000530",
+   "prevName": "시흥하늘휴게소",
+   "prevKm": 5.2
   },
   {
    "id": "000365",
@@ -71284,167 +71284,12 @@
    ],
    "seq": 7,
    "total": 12,
-   "nextId": "000491",
-   "nextName": "광주(광주)휴게소",
-   "nextKm": 61.6,
+   "nextId": "000300",
+   "nextName": "원주(춘천)휴게소",
+   "nextKm": 22.4,
    "prevId": "000313",
    "prevName": "제천(춘천)휴게소",
    "prevKm": 20.6
-  },
-  {
-   "id": "000491",
-   "name": "광주(광주)휴게소",
-   "route": "중앙선",
-   "unitCode": "",
-   "routeNo": "0550",
-   "geocoded": true,
-   "kind": "rest",
-   "dir": "상행",
-   "lat": 37.349954,
-   "lng": 127.361953,
-   "addr": "경기 광주시 곤지암읍 만삼로 211",
-   "tel": "03180273945",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": true
-   },
-   "facilities": {
-    "수유실": {
-     "time": "00:00~24:00",
-     "desc": "코로나19로 운영중단중"
-    },
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": ""
-    }
-   },
-   "brands": [
-    "기타",
-    "배스킨라빈스",
-    "엔제리너스",
-    "임실치즈피자",
-    "탐앤탐스"
-   ],
-   "menus": [
-    {
-     "seq": "2441",
-     "name": "소머리곰탕",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "2442",
-     "name": "양곰탕",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "2447",
-     "name": "곤드레밥과 용대리 황태구이반상",
-     "price": 15000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "2443",
-     "name": "교동시래기짬뽕",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "2445",
-     "name": "모듬튀김우동",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "2444",
-     "name": "알밥돈가스정식",
-     "price": 8500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2449",
-     "name": "자맛육계장칼국수라면",
-     "price": 4500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2448",
-     "name": "코다리냉면",
-     "price": 8000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2450",
-     "name": "코다리만두국",
-     "price": 7500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2446",
-     "name": "토마토김밥",
-     "price": 4000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 8,
-   "total": 12,
-   "nextId": "000300",
-   "nextName": "원주(춘천)휴게소",
-   "nextKm": 51.2,
-   "prevId": "000218",
-   "prevName": "치악(춘천)휴게소",
-   "prevKm": 61.6
   },
   {
    "id": "000300",
@@ -71696,14 +71541,14 @@
      "prem": false
     }
    ],
-   "seq": 9,
+   "seq": 8,
    "total": 12,
    "nextId": "000487",
    "nextName": "양평(광주)휴게소",
    "nextKm": 17.0,
-   "prevId": "000491",
-   "prevName": "광주(광주)휴게소",
-   "prevKm": 51.2
+   "prevId": "000218",
+   "prevName": "치악(춘천)휴게소",
+   "prevKm": 22.4
   },
   {
    "id": "000487",
@@ -71989,7 +71834,7 @@
      "prem": false
     }
    ],
-   "seq": 10,
+   "seq": 9,
    "total": 12,
    "nextId": "000213",
    "nextName": "홍천강(춘천)휴게소",
@@ -72528,11 +72373,166 @@
      "prem": false
     }
    ],
-   "seq": 11,
+   "seq": 10,
    "total": 12,
+   "nextId": "000491",
+   "nextName": "광주(광주)휴게소",
+   "nextKm": 57.5,
    "prevId": "000487",
    "prevName": "양평(광주)휴게소",
    "prevKm": 30.6
+  },
+  {
+   "id": "000491",
+   "name": "광주(광주)휴게소",
+   "route": "중앙선",
+   "unitCode": "",
+   "routeNo": "0550",
+   "geocoded": true,
+   "kind": "rest",
+   "dir": "상행",
+   "lat": 37.349954,
+   "lng": 127.361953,
+   "addr": "경기 광주시 곤지암읍 만삼로 211",
+   "tel": "03180273945",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": true
+   },
+   "facilities": {
+    "수유실": {
+     "time": "00:00~24:00",
+     "desc": "코로나19로 운영중단중"
+    },
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": ""
+    }
+   },
+   "brands": [
+    "기타",
+    "배스킨라빈스",
+    "엔제리너스",
+    "임실치즈피자",
+    "탐앤탐스"
+   ],
+   "menus": [
+    {
+     "seq": "2441",
+     "name": "소머리곰탕",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "2442",
+     "name": "양곰탕",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "2447",
+     "name": "곤드레밥과 용대리 황태구이반상",
+     "price": 15000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "2443",
+     "name": "교동시래기짬뽕",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "2445",
+     "name": "모듬튀김우동",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "2444",
+     "name": "알밥돈가스정식",
+     "price": 8500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2449",
+     "name": "자맛육계장칼국수라면",
+     "price": 4500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2448",
+     "name": "코다리냉면",
+     "price": 8000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2450",
+     "name": "코다리만두국",
+     "price": 7500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2446",
+     "name": "토마토김밥",
+     "price": 4000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
+   "seq": 11,
+   "total": 12,
+   "prevId": "000213",
+   "prevName": "홍천강(춘천)휴게소",
+   "prevKm": 57.5
   },
   {
    "id": "000211",
@@ -72739,509 +72739,9 @@
    ],
    "seq": 0,
    "total": 12,
-   "nextId": "000488",
-   "nextName": "양평(원주)휴게소",
-   "nextKm": 40.8
-  },
-  {
-   "id": "000488",
-   "name": "양평(원주)휴게소",
-   "route": "중앙선",
-   "unitCode": "",
-   "routeNo": "0550",
-   "geocoded": true,
-   "kind": "rest",
-   "dir": "하행",
-   "lat": 37.44661,
-   "lng": 127.739252,
-   "addr": "경기 양평군 양동면 송석2길 52",
-   "tel": "03180272172",
-   "parking": {
-    "car": 0,
-    "truck": 0,
-    "disabled": 0
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": false,
-    "atm": true
-   },
-   "facilities": {
-    "수유실": {
-     "time": "00:00~24:00",
-     "desc": "[코로나19로 운영중단] 정수기,젖병소독기,기저귀등 비치"
-    },
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": ""
-    }
-   },
-   "brands": [],
-   "menus": [
-    {
-     "seq": "2483",
-     "name": "양평가마솥해장국",
-     "price": 9000,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "2486",
-     "name": "궁중비빔밥",
-     "price": 8000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "2491",
-     "name": "모듬튀김우동",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "2484",
-     "name": "풍경마루반상",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": true
-    },
-    {
-     "seq": "2485",
-     "name": "가마솥장터국밥",
-     "price": 8500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2487",
-     "name": "김치돈가스치즈나베",
-     "price": 8000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2488",
-     "name": "꼬치어묵우동",
-     "price": 5500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2490",
-     "name": "돈까스우동정식",
-     "price": 8500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2492",
-     "name": "목살김치찌개",
-     "price": 8000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2493",
-     "name": "알밥돈가스정식",
-     "price": 8500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2494",
-     "name": "야채김밥",
-     "price": 3500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2495",
-     "name": "야채튀김우동",
-     "price": 5500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "2489",
-     "name": "옛날돈가스",
-     "price": 8900,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 1,
-   "total": 12,
-   "nextId": "000299",
-   "nextName": "원주(부산)휴게소",
-   "nextKm": 16.8,
-   "prevId": "000211",
-   "prevName": "춘천(부산)휴게소",
-   "prevKm": 40.8
-  },
-  {
-   "id": "000299",
-   "name": "원주(부산)휴게소",
-   "route": "중앙선",
-   "unitCode": "148",
-   "routeNo": "0550",
-   "geocoded": false,
-   "kind": "rest",
-   "dir": "하행",
-   "lat": 37.435229,
-   "lng": 127.929313,
-   "addr": "강원 원주시 호저면 옥산리 211",
-   "tel": "0337311794",
-   "parking": {
-    "car": 119,
-    "truck": 16,
-    "disabled": 6
-   },
-   "tags": {
-    "shower": false,
-    "sleep": false,
-    "laundry": false,
-    "lounge": false,
-    "repair": false,
-    "cvs": true,
-    "atm": true
-   },
-   "facilities": {
-    "수유실": {
-     "time": "00:00~20:00",
-     "desc": "유아용침대,기저귀교환대,전자렌지,화장대,자외선 젖병소독기,기저귀 가 준비되어 있습니다"
-    },
-    "ATM": {
-     "time": "00:00~24:00",
-     "desc": "국민은행"
-    },
-    "편의점": {
-     "time": "08:00~20:00",
-     "desc": ""
-    },
-    "기타": {
-     "time": "00:00~24:00",
-     "desc": "무인편의점, 하이패스충전"
-    }
-   },
-   "brands": [
-    "던킨도너츠",
-    "엔제리너스",
-    "이마트24"
-   ],
-   "menus": [
-    {
-     "seq": "7418",
-     "name": "(실속상품)뽕잎콩나물비빔밥",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": true,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "920",
-     "name": "23번지남산치즈돈가스",
-     "price": 14000,
-     "desc": "국내산 돼지고기 패티에 고소한 치즈가 듬뿍",
-     "material": "",
-     "best": false,
-     "rec": true,
-     "prem": false
-    },
-    {
-     "seq": "5164",
-     "name": "(실속상품)ex-라면",
-     "price": 4000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "5151",
-     "name": "(실속상품)등심돈가스",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "16973",
-     "name": "(실속상품)우동",
-     "price": 5500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12990",
-     "name": "23번지남왕돈가스",
-     "price": 13500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "13007",
-     "name": "강원나물밥",
-     "price": 9000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "11661",
-     "name": "고기곱배기설렁탕정식[인생설렁탕]",
-     "price": 12000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "5161",
-     "name": "꼬치어묵우동",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "11663",
-     "name": "놀부부대찌게[놀부]",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "16961",
-     "name": "떡만두라면",
-     "price": 5500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "16963",
-     "name": "떡만두라면정식",
-     "price": 6000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "11654",
-     "name": "맑순두부정식[제순식당]",
-     "price": 9500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "11658",
-     "name": "매콤제육덮밥[제순식당]",
-     "price": 9900,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "11657",
-     "name": "부대순두부정식[제순식당]",
-     "price": 9500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "5163",
-     "name": "새우튀김우동",
-     "price": 7500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "11653",
-     "name": "샘밭막국수",
-     "price": 9000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12986",
-     "name": "순대국",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12987",
-     "name": "순대국(순대만)",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12988",
-     "name": "얼큰순대국",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "12989",
-     "name": "얼큰순대국(순대만)",
-     "price": 11000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "16968",
-     "name": "얼큰순두부정식[제순식당]",
-     "price": 9500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "5159",
-     "name": "유부우동",
-     "price": 6500,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "22170",
-     "name": "육개장",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "11660",
-     "name": "인생설렁탕정식[인생설렁탕]",
-     "price": 10000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    },
-    {
-     "seq": "5158",
-     "name": "자장면",
-     "price": 7000,
-     "desc": "",
-     "material": "",
-     "best": false,
-     "rec": false,
-     "prem": false
-    }
-   ],
-   "seq": 2,
-   "total": 12,
    "nextId": "000492",
    "nextName": "광주(원주)휴게소",
-   "nextKm": 51.0,
-   "prevId": "000488",
-   "prevName": "양평(원주)휴게소",
-   "prevKm": 16.8
+   "nextKm": 62.6
   },
   {
    "id": "000492",
@@ -73688,14 +73188,514 @@
      "prem": false
     }
    ],
+   "seq": 1,
+   "total": 12,
+   "nextId": "000488",
+   "nextName": "양평(원주)휴게소",
+   "nextKm": 35.0,
+   "prevId": "000211",
+   "prevName": "춘천(부산)휴게소",
+   "prevKm": 62.6
+  },
+  {
+   "id": "000488",
+   "name": "양평(원주)휴게소",
+   "route": "중앙선",
+   "unitCode": "",
+   "routeNo": "0550",
+   "geocoded": true,
+   "kind": "rest",
+   "dir": "하행",
+   "lat": 37.44661,
+   "lng": 127.739252,
+   "addr": "경기 양평군 양동면 송석2길 52",
+   "tel": "03180272172",
+   "parking": {
+    "car": 0,
+    "truck": 0,
+    "disabled": 0
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": false,
+    "atm": true
+   },
+   "facilities": {
+    "수유실": {
+     "time": "00:00~24:00",
+     "desc": "[코로나19로 운영중단] 정수기,젖병소독기,기저귀등 비치"
+    },
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": ""
+    }
+   },
+   "brands": [],
+   "menus": [
+    {
+     "seq": "2483",
+     "name": "양평가마솥해장국",
+     "price": 9000,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "2486",
+     "name": "궁중비빔밥",
+     "price": 8000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "2491",
+     "name": "모듬튀김우동",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "2484",
+     "name": "풍경마루반상",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": true
+    },
+    {
+     "seq": "2485",
+     "name": "가마솥장터국밥",
+     "price": 8500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2487",
+     "name": "김치돈가스치즈나베",
+     "price": 8000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2488",
+     "name": "꼬치어묵우동",
+     "price": 5500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2490",
+     "name": "돈까스우동정식",
+     "price": 8500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2492",
+     "name": "목살김치찌개",
+     "price": 8000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2493",
+     "name": "알밥돈가스정식",
+     "price": 8500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2494",
+     "name": "야채김밥",
+     "price": 3500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2495",
+     "name": "야채튀김우동",
+     "price": 5500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "2489",
+     "name": "옛날돈가스",
+     "price": 8900,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
+   "seq": 2,
+   "total": 12,
+   "nextId": "000299",
+   "nextName": "원주(부산)휴게소",
+   "nextKm": 16.8,
+   "prevId": "000492",
+   "prevName": "광주(원주)휴게소",
+   "prevKm": 35.0
+  },
+  {
+   "id": "000299",
+   "name": "원주(부산)휴게소",
+   "route": "중앙선",
+   "unitCode": "148",
+   "routeNo": "0550",
+   "geocoded": false,
+   "kind": "rest",
+   "dir": "하행",
+   "lat": 37.435229,
+   "lng": 127.929313,
+   "addr": "강원 원주시 호저면 옥산리 211",
+   "tel": "0337311794",
+   "parking": {
+    "car": 119,
+    "truck": 16,
+    "disabled": 6
+   },
+   "tags": {
+    "shower": false,
+    "sleep": false,
+    "laundry": false,
+    "lounge": false,
+    "repair": false,
+    "cvs": true,
+    "atm": true
+   },
+   "facilities": {
+    "수유실": {
+     "time": "00:00~20:00",
+     "desc": "유아용침대,기저귀교환대,전자렌지,화장대,자외선 젖병소독기,기저귀 가 준비되어 있습니다"
+    },
+    "ATM": {
+     "time": "00:00~24:00",
+     "desc": "국민은행"
+    },
+    "편의점": {
+     "time": "08:00~20:00",
+     "desc": ""
+    },
+    "기타": {
+     "time": "00:00~24:00",
+     "desc": "무인편의점, 하이패스충전"
+    }
+   },
+   "brands": [
+    "던킨도너츠",
+    "엔제리너스",
+    "이마트24"
+   ],
+   "menus": [
+    {
+     "seq": "7418",
+     "name": "(실속상품)뽕잎콩나물비빔밥",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": true,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "920",
+     "name": "23번지남산치즈돈가스",
+     "price": 14000,
+     "desc": "국내산 돼지고기 패티에 고소한 치즈가 듬뿍",
+     "material": "",
+     "best": false,
+     "rec": true,
+     "prem": false
+    },
+    {
+     "seq": "5164",
+     "name": "(실속상품)ex-라면",
+     "price": 4000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "5151",
+     "name": "(실속상품)등심돈가스",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "16973",
+     "name": "(실속상품)우동",
+     "price": 5500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12990",
+     "name": "23번지남왕돈가스",
+     "price": 13500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "13007",
+     "name": "강원나물밥",
+     "price": 9000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "11661",
+     "name": "고기곱배기설렁탕정식[인생설렁탕]",
+     "price": 12000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "5161",
+     "name": "꼬치어묵우동",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "11663",
+     "name": "놀부부대찌게[놀부]",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "16961",
+     "name": "떡만두라면",
+     "price": 5500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "16963",
+     "name": "떡만두라면정식",
+     "price": 6000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "11654",
+     "name": "맑순두부정식[제순식당]",
+     "price": 9500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "11658",
+     "name": "매콤제육덮밥[제순식당]",
+     "price": 9900,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "11657",
+     "name": "부대순두부정식[제순식당]",
+     "price": 9500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "5163",
+     "name": "새우튀김우동",
+     "price": 7500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "11653",
+     "name": "샘밭막국수",
+     "price": 9000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12986",
+     "name": "순대국",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12987",
+     "name": "순대국(순대만)",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12988",
+     "name": "얼큰순대국",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "12989",
+     "name": "얼큰순대국(순대만)",
+     "price": 11000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "16968",
+     "name": "얼큰순두부정식[제순식당]",
+     "price": 9500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "5159",
+     "name": "유부우동",
+     "price": 6500,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "22170",
+     "name": "육개장",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "11660",
+     "name": "인생설렁탕정식[인생설렁탕]",
+     "price": 10000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    },
+    {
+     "seq": "5158",
+     "name": "자장면",
+     "price": 7000,
+     "desc": "",
+     "material": "",
+     "best": false,
+     "rec": false,
+     "prem": false
+    }
+   ],
    "seq": 3,
    "total": 12,
    "nextId": "000217",
    "nextName": "치악(부산)휴게소",
-   "nextKm": 61.7,
-   "prevId": "000299",
-   "prevName": "원주(부산)휴게소",
-   "prevKm": 51.0
+   "nextKm": 22.8,
+   "prevId": "000488",
+   "prevName": "양평(원주)휴게소",
+   "prevKm": 16.8
   },
   {
    "id": "000217",
@@ -73924,9 +73924,9 @@
    "nextId": "000328",
    "nextName": "제천(부산)휴게소",
    "nextKm": 19.0,
-   "prevId": "000492",
-   "prevName": "광주(원주)휴게소",
-   "prevKm": 61.7
+   "prevId": "000299",
+   "prevName": "원주(부산)휴게소",
+   "prevKm": 22.8
   },
   {
    "id": "000328",
@@ -88721,6 +88721,6 @@
    "total": 1
   }
  ],
- "version": "334b8298ea6a",
- "builtAt": "2026-09-04 20:29"
+ "version": "54784e461c38",
+ "builtAt": "2026-09-18 11:04"
 }
